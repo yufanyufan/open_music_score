@@ -3,15 +3,6 @@ with ScorePartwise(version='3.1'):
         WorkTitle('Étude Op. 10 No. 1 in C major')
     with Identification():
         Creator('Frédéric Chopin', type='composer')
-        with Encoding():
-            Software('MuseScore 3.6.2')
-            EncodingDate('2025-01-14')
-            Supports(element='accidental', type='yes')
-            Supports(element='beam', type='yes')
-            Supports(element='print', attribute='new-page', type='yes', value='yes')
-            Supports(element='print', attribute='new-system', type='yes', value='yes')
-            Supports(element='stem', type='yes')
-        Source('http://musescore.com/user/33306646/scores/6040694')
     with Defaults():
         with Scaling():
             Millimeters(7.056)
@@ -42,10 +33,10 @@ with ScorePartwise(version='3.1'):
         CreditWords('Frédéric Chopin', default_x=1626.59, default_y=2224.95, justify='right', valign='bottom', font_size='12')
     with PartList():
         with ScorePart(id='P1'):
-            PartName('鋼琴')
+            PartName('Piano')
             PartAbbreviation('Pno.')
             with ScoreInstrument(id='P1-I1'):
-                InstrumentName('鋼琴')
+                InstrumentName('Piano')
             MidiDevice(None, id='P1-I1', port=1)
             with MidiInstrument(id='P1-I1'):
                 MidiChannel(1)
@@ -979,24 +970,6 @@ with ScorePartwise(version='3.1'):
                 Staff(2)
             with Backup():
                 Duration(16.0)
-            with Note(print_object='no'):
-                Rest()
-                Duration(4.0)
-                Voice('6')
-                Type('quarter')
-                Staff(2)
-            with Note(print_object='no'):
-                Rest()
-                Duration(4.0)
-                Voice('6')
-                Type('quarter')
-                Staff(2)
-            with Note(print_object='no'):
-                Rest()
-                Duration(4.0)
-                Voice('6')
-                Type('quarter')
-                Staff(2)
             with Direction(placement='below'):
                 with DirectionType():
                     Pedal(type='stop', line='yes', relative_x=88.27)
@@ -1004,12 +977,6 @@ with ScorePartwise(version='3.1'):
             with Direction(placement='below'):
                 with DirectionType():
                     Pedal(type='start', line='yes', default_y=-121.65)
-                Staff(2)
-            with Note(print_object='no'):
-                Rest()
-                Duration(4.0)
-                Voice('6')
-                Type('quarter')
                 Staff(2)
         with Measure(number='5', width=483.02):
             with Note():
