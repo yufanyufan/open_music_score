@@ -15,3 +15,5 @@ Some sheet is missing and you like to contribute? Send us a pull request!
 The music work must be under [public domain](https://creativecommons.org/publicdomain/mark/1.0/).
 
 If your orignal sheet is in MusicXml format, it can be converted to MusicPy using [xml_to_py.py](https://github.com/yufanyufan/musicpy/blob/main/xml_to_py.py) converter.
+
+For security reason, MusicPy in this repository does not permit to import **any** module or use any function call. Only vallia MusicPy is allowed.
