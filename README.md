@@ -16,4 +16,4 @@ The music work must be under [public domain](https://creativecommons.org/publicd
 
 If your orignal sheet is in MusicXml format, it can be converted to MusicPy using [xml_to_py.py](https://github.com/yufanyufan/musicpy/blob/main/xml_to_py.py) converter.
 
-For security reason, MusicPy in this repository does not permit to import **any** module or use any function call. Only vallia MusicPy is allowed.
+For security reason, MusicPy in this repository does not permit to import **any** module or use any function call. Only vallila MusicPy is allowed.
