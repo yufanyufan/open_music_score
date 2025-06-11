@@ -9,4 +9,4 @@ Its data come from collabrative editing of music sheet in MusicPy language.
 
 The scores are oranized by `composer/genre/work/piece`, eg: `/chopin/preludes/op28/no15_prelude-in-db-major_raindrop.py`
 
-Somesheet is missing and you like to contribute? Send us a pull request.
+Some sheet is missing and you like to contribute? Send us a pull request!
