@@ -1,0 +1,2822 @@
+with ScorePartwise(version='3.1'):
+    with Work():
+        WorkTitle('Krieger-Chor')
+    with Identification():
+        Creator('Ludwig van Beethoven', type='composer')
+        with Encoding():
+            Software('MuseScore 3.6.2')
+            EncodingDate('2025-01-14')
+            Supports(element='accidental', type='yes')
+            Supports(element='beam', type='yes')
+            Supports(element='print', attribute='new-page', type='yes', value='yes')
+            Supports(element='print', attribute='new-system', type='yes', value='yes')
+            Supports(element='stem', type='yes')
+        Source('http://musescore.com/user/3099636/scores/6062966')
+    with Defaults():
+        with Scaling():
+            Millimeters(5.36)
+            Tenths(40.0)
+        with PageLayout():
+            PageHeight(2215.9)
+            PageWidth(1567.61)
+            with PageMargins(type='even'):
+                LeftMargin(74.6269)
+                RightMargin(74.6269)
+                TopMargin(74.6269)
+                BottomMargin(149.254)
+            with PageMargins(type='odd'):
+                LeftMargin(74.6269)
+                RightMargin(74.6269)
+                TopMargin(74.6269)
+                BottomMargin(149.254)
+        WordFont(font_family='FreeSerif', font_size='10')
+        LyricFont(font_family='FreeSerif', font_size='11')
+    with Credit(page=1):
+        CreditType('title')
+        CreditWords('Krieger-Chor', default_x=783.806, default_y=2141.28, justify='center', valign='top', font_size='24')
+    with Credit(page=1):
+        CreditType('subtitle')
+        CreditWords("Musik zu Friedrich Dunker's Drama: Leonore Prohaska", default_x=783.806, default_y=2066.65, justify='center', valign='top', font_size='14')
+    with Credit(page=1):
+        CreditType('composer')
+        CreditWords('Ludwig van Beethoven', default_x=1492.99, default_y=1971.46, justify='right', valign='bottom', font_size='12')
+    with PartList():
+        with PartGroup(type='start', number='1'):
+            GroupSymbol('bracket')
+        with ScorePart(id='P1'):
+            PartName('Tenor 1')
+            with ScoreInstrument(id='P1-I1'):
+                InstrumentName('Tenor')
+            MidiDevice(None, id='P1-I1', port=1)
+            with MidiInstrument(id='P1-I1'):
+                MidiChannel(1)
+                MidiProgram(53)
+                Volume(78.7402)
+                Pan(0.0)
+        with ScorePart(id='P2'):
+            PartName('Tenor 2')
+            with ScoreInstrument(id='P2-I1'):
+                InstrumentName('Tenor')
+            MidiDevice(None, id='P2-I1', port=1)
+            with MidiInstrument(id='P2-I1'):
+                MidiChannel(2)
+                MidiProgram(53)
+                Volume(78.7402)
+                Pan(0.0)
+        with ScorePart(id='P3'):
+            PartName('Baryton')
+            with ScoreInstrument(id='P3-I1'):
+                InstrumentName('Baryton')
+            MidiDevice(None, id='P3-I1', port=1)
+            with MidiInstrument(id='P3-I1'):
+                MidiChannel(3)
+                MidiProgram(53)
+                Volume(78.7402)
+                Pan(0.0)
+        with ScorePart(id='P4'):
+            PartName('Bass')
+            with ScoreInstrument(id='P4-I1'):
+                InstrumentName('Bass')
+            MidiDevice(None, id='P4-I1', port=1)
+            with MidiInstrument(id='P4-I1'):
+                MidiChannel(4)
+                MidiProgram(53)
+                Volume(78.7402)
+                Pan(0.0)
+        PartGroup(type='stop', number='1')
+    with Part(id='P1'):
+        with Measure(number='1', width=244.27):
+            with Print():
+                with SystemLayout():
+                    with SystemMargins():
+                        LeftMargin(93.14)
+                        RightMargin(0.0)
+                    TopSystemDistance(241.14)
+            with Attributes():
+                Divisions(4.0)
+                with Key():
+                    Fifths(-2)
+                with Time():
+                    Beats('2')
+                    BeatType('4')
+                with Clef():
+                    Sign('G')
+                    Line(2)
+                    ClefOctaveChange(-1)
+            with Direction(placement='above'):
+                with DirectionType():
+                    Words('Andante', default_x=-36.0, default_y=34.48, relative_y=20.0, font_weight='bold', font_size='12')
+                Sound(tempo=72.0)
+            with Direction(placement='above'):
+                with DirectionType():
+                    with Dynamics(default_x=3.29, relative_y=30.0):
+                        F()
+                Sound(dynamics=106.67)
+            with Note(default_x=109.83, default_y=-10.0):
+                with Pitch():
+                    Step('D')
+                    Octave(4)
+                Duration(4.0)
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('Wir')
+            with Note(default_x=147.58, default_y=-10.0):
+                with Pitch():
+                    Step('D')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('bau')
+            with Note(default_x=180.14, default_y=-10.0):
+                with Pitch():
+                    Step('D')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('en')
+            with Note(default_x=209.5, default_y=-10.0):
+                with Pitch():
+                    Step('D')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('und')
+        with Measure(number='2', width=110.84):
+            with Note(default_x=21.21, default_y=-10.0):
+                with Pitch():
+                    Step('D')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Notations():
+                    with Articulations():
+                        Accent()
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('ster')
+            with Note(default_x=59.35, default_y=-15.0):
+                with Pitch():
+                    Step('C')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=9.43, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('ben;')
+            with Note():
+                Rest()
+                Duration(4.0)
+                Voice('1')
+                Type('quarter')
+        with Measure(number='3', width=157.49):
+            with Direction(placement='above'):
+                with DirectionType():
+                    with Dynamics(default_x=3.29, relative_y=30.0):
+                        Sf()
+                Sound(dynamics=124.44)
+            with Note(default_x=23.06, default_y=0.0):
+                with Pitch():
+                    Step('F')
+                    Octave(4)
+                Duration(4.0)
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('Wir')
+            with Note(default_x=60.8, default_y=0.0):
+                with Pitch():
+                    Step('F')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('bau')
+            with Note(default_x=93.37, default_y=0.0):
+                with Pitch():
+                    Step('F')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('en')
+            with Note(default_x=122.72, default_y=0.0):
+                with Pitch():
+                    Step('F')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('und')
+        with Measure(number='4', width=136.22):
+            with Note(default_x=21.21, default_y=0.0):
+                with Pitch():
+                    Step('F')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('ster')
+            with Note(default_x=59.35, default_y=-10.0):
+                with Pitch():
+                    Step('D')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=9.43, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('ben;')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with Notations():
+                    Fermata(None, type='upright', relative_y=10.0)
+            with Note(default_x=100.92, default_y=-20.0):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('Aus')
+        with Measure(number='5', width=227.83):
+            with Note(default_x=29.9, default_y=-20.0):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('Trüm')
+            with Note(default_x=83.79, default_y=-20.0):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('mern')
+            with Note(default_x=117.88, default_y=-20.0):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('er')
+            with Note(default_x=153.26, default_y=-20.0):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=9.29, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('steht,')
+            with Note(default_x=191.64, default_y=-20.0):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('ist')
+        with Measure(number='6', width=242.47):
+            with Note(default_x=30.95, default_y=-15.0):
+                with Pitch():
+                    Step('C')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('längst')
+            with Note(default_x=73.73, default_y=-15.0):
+                with Pitch():
+                    Step('C')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('uns')
+            with Note(default_x=103.4, default_y=-15.0):
+                with Pitch():
+                    Step('C')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('re')
+            with Note(default_x=128.7, default_y=-15.0):
+                with Pitch():
+                    Step('C')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('A')
+            with Note(default_x=163.87, default_y=-10.0):
+                with Pitch():
+                    Step('D')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('sche')
+            with Note(default_x=204.8, default_y=-10.0):
+                with Pitch():
+                    Step('D')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('vom')
+        with Measure(number='7', width=206.11):
+            with Note(default_x=24.64, default_y=-10.0):
+                with Pitch():
+                    Step('D')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('Win')
+            with Note(default_x=60.36, default_y=-10.0):
+                with Pitch():
+                    Step('D')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('de')
+            with Note(default_x=87.08, default_y=-10.0):
+                with Pitch():
+                    Step('D')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('ver')
+            with Note(default_x=128.88, default_y=-5.0):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=9.19, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('weht,')
+            with Note(default_x=171.9, default_y=0.0):
+                with Pitch():
+                    Step('F')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('der')
+        with Measure(number='8', width=340.5):
+            with Print(new_system='yes'):
+                with SystemLayout():
+                    with SystemMargins():
+                        LeftMargin(6.27)
+                        RightMargin(0.0)
+                    SystemDistance(150.0)
+            with Note(default_x=88.78, default_y=5.0):
+                with Pitch():
+                    Step('G')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('Tem')
+            with Note(default_x=144.03, default_y=5.0):
+                with Pitch():
+                    Step('G')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('pel')
+            with Note(default_x=178.56, default_y=5.0):
+                with Pitch():
+                    Step('G')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('der')
+            with Note(default_x=213.18, default_y=5.0):
+                with Pitch():
+                    Step('G')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('Frei')
+            with Note(default_x=268.44, default_y=-5.0):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('heit')
+            with Note(default_x=304.37, default_y=-10.0):
+                with Pitch():
+                    Step('D')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('und')
+        with Measure(number='9', width=156.79):
+            with Direction(placement='above'):
+                with DirectionType():
+                    with Dynamics(default_x=3.29, relative_y=30.0):
+                        P()
+                Sound(dynamics=54.44)
+            with Note(default_x=20.16, default_y=-15.0):
+                with Pitch():
+                    Step('C')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Beam('begin', number=1)
+                with Notations():
+                    Slur(type='start', placement='above', number=1)
+                with Lyric(number='1', default_y=-50.92, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('Lie')
+            with Note(default_x=53.92, default_y=-10.0):
+                with Pitch():
+                    Step('D')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Beam('end', number=1)
+                with Notations():
+                    Slur(type='stop', number=1)
+            with Note(default_x=87.67, default_y=-20.0):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=9.05, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('be,')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+        with Measure(number='10', width=202.2):
+            with Note():
+                Rest(measure='yes')
+                Duration(8.0)
+                Voice('1')
+        with Measure(number='11', width=277.41):
+            with Note():
+                Rest()
+                Duration(4.0)
+                Voice('1')
+                Type('quarter')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+            with Direction(placement='above'):
+                with DirectionType():
+                    with Dynamics(default_x=3.29, relative_y=30.0):
+                        Ff()
+                Sound(dynamics=124.44)
+            with Note(default_x=203.24, default_y=5.0):
+                with Pitch():
+                    Step('G')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('der')
+        with Measure(number='12', width=285.81):
+            with Note(default_x=25.69, default_y=5.0):
+                with Pitch():
+                    Step('G')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('Tem')
+            with Note(default_x=82.32, default_y=5.0):
+                with Pitch():
+                    Step('G')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('pel')
+            with Note(default_x=120.86, default_y=5.0):
+                with Pitch():
+                    Step('G')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('der')
+            with Direction(placement='above'):
+                with DirectionType():
+                    with Dynamics(default_x=3.29, relative_y=30.0):
+                        Sf()
+                Sound(dynamics=124.44)
+            with Note(default_x=156.26, default_y=5.0):
+                with Pitch():
+                    Step('G')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('Frei')
+            with Note(default_x=212.89, default_y=-5.0):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('heit')
+            with Note(default_x=248.82, default_y=-10.0):
+                with Pitch():
+                    Step('D')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('und')
+        with Measure(number='13', width=149.37):
+            with Direction(placement='above'):
+                with DirectionType():
+                    Words('Adagio', relative_y=20.0, font_weight='bold', font_size='12')
+                Sound(tempo=51.0)
+            with Note(default_x=20.16, default_y=-15.0):
+                with Pitch():
+                    Step('C')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Beam('begin', number=1)
+                with Notations():
+                    Slur(type='start', placement='above', number=1)
+                with Lyric(number='1', default_y=-50.92, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('Lie')
+            with Note(default_x=50.01, default_y=-10.0):
+                with Pitch():
+                    Step('D')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Beam('end', number=1)
+                with Notations():
+                    Slur(type='stop', number=1)
+            with Note(default_x=79.86, default_y=-20.0):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=8.78, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('be.')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+            with Barline(location='right'):
+                BarStyle('light-heavy')
+    with Part(id='P2'):
+        with Measure(number='1', width=244.27):
+            with Print():
+                with StaffLayout(number=1):
+                    StaffDistance(134.87)
+            with Attributes():
+                Divisions(4.0)
+                with Key():
+                    Fifths(-2)
+                with Time():
+                    Beats('2')
+                    BeatType('4')
+                with Clef():
+                    Sign('G')
+                    Line(2)
+                    ClefOctaveChange(-1)
+            with Direction(placement='above'):
+                with DirectionType():
+                    with Dynamics(default_x=3.29, relative_y=30.0):
+                        F()
+                Sound(dynamics=106.67)
+            with Note(default_x=109.83, default_y=-194.87):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(4.0)
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('Wir')
+            with Note(default_x=147.58, default_y=-194.87):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('bau')
+            with Note(default_x=180.14, default_y=-194.87):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('en')
+            with Note(default_x=209.5, default_y=-194.87):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('und')
+        with Measure(number='2', width=110.84):
+            with Note(default_x=21.21, default_y=-194.87):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Notations():
+                    with Articulations():
+                        Accent()
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('ster')
+            with Note(default_x=59.35, default_y=-199.87):
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+                with Lyric(number='1', default_x=9.43, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('ben;')
+            with Note():
+                Rest()
+                Duration(4.0)
+                Voice('1')
+                Type('quarter')
+        with Measure(number='3', width=157.49):
+            with Direction(placement='above'):
+                with DirectionType():
+                    with Dynamics(default_x=3.29, relative_y=30.0):
+                        Sf()
+                Sound(dynamics=124.44)
+            with Note(default_x=23.06, default_y=-189.87):
+                with Pitch():
+                    Step('C')
+                    Octave(4)
+                Duration(4.0)
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('Wir')
+            with Note(default_x=60.8, default_y=-194.87):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('bau')
+            with Note(default_x=93.37, default_y=-189.87):
+                with Pitch():
+                    Step('C')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('en')
+            with Note(default_x=122.72, default_y=-189.87):
+                with Pitch():
+                    Step('C')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('und')
+        with Measure(number='4', width=136.22):
+            with Note(default_x=21.21, default_y=-184.87):
+                with Pitch():
+                    Step('D')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('ster')
+            with Note(default_x=59.35, default_y=-184.87):
+                with Pitch():
+                    Step('D')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=9.43, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('ben;')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with Notations():
+                    Fermata(None, type='upright', relative_y=10.0)
+            with Note(default_x=100.92, default_y=-209.87):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('Aus')
+        with Measure(number='5', width=227.83):
+            with Note(default_x=29.9, default_y=-209.87):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('Trüm')
+            with Note(default_x=83.79, default_y=-209.87):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('up')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('mern')
+            with Note(default_x=117.88, default_y=-209.87):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('up')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('er')
+            with Note(default_x=153.26, default_y=-204.87):
+                with Pitch():
+                    Step('G')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+                with Lyric(number='1', default_x=9.29, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('steht,')
+            with Note(default_x=191.64, default_y=-204.87):
+                with Pitch():
+                    Step('G')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('ist')
+        with Measure(number='6', width=242.47):
+            with Note(default_x=30.95, default_y=-204.87):
+                with Pitch():
+                    Step('G')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('längst')
+            with Note(default_x=73.73, default_y=-204.87):
+                with Pitch():
+                    Step('G')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('up')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('uns')
+            with Note(default_x=103.4, default_y=-204.87):
+                with Pitch():
+                    Step('G')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('up')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('re')
+            with Note(default_x=128.7, default_y=-199.87):
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('A')
+            with Note(default_x=163.87, default_y=-199.87):
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('up')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('sche')
+            with Note(default_x=204.8, default_y=-199.87):
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('up')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('vom')
+        with Measure(number='7', width=206.11):
+            with Note(default_x=24.64, default_y=-194.87):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('Win')
+            with Note(default_x=60.36, default_y=-194.87):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('de')
+            with Note(default_x=87.08, default_y=-194.87):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('ver')
+            with Note(default_x=128.88, default_y=-194.87):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=9.19, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('weht,')
+            with Note(default_x=171.9, default_y=-184.87):
+                with Pitch():
+                    Step('D')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('der')
+        with Measure(number='8', width=340.5):
+            with Print(new_system='yes'):
+                with StaffLayout(number=1):
+                    StaffDistance(138.03)
+            with Note(default_x=88.78, default_y=-183.03):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('Tem')
+            with Note(default_x=144.03, default_y=-183.03):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('pel')
+            with Note(default_x=178.56, default_y=-183.03):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('der')
+            with Note(default_x=213.18, default_y=-183.03):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('Frei')
+            with Note(default_x=268.44, default_y=-193.03):
+                with Pitch():
+                    Step('C')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('heit')
+            with Note(default_x=304.37, default_y=-198.03):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('und')
+        with Measure(number='9', width=156.79):
+            with Direction(placement='above'):
+                with DirectionType():
+                    with Dynamics(default_x=6.58, relative_y=30.0):
+                        P()
+                Sound(dynamics=54.44)
+            with Note(default_x=20.16, default_y=-203.03):
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Slur(type='start', placement='below', number=1)
+                with Lyric(number='1', default_y=-51.47, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('Lie')
+            with Note(default_x=53.92, default_y=-198.03):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Slur(type='stop', number=1)
+            with Note(default_x=87.67, default_y=-198.03):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=9.05, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('be,')
+            with Direction(placement='above'):
+                with DirectionType():
+                    with Dynamics(default_x=3.29, relative_y=30.0):
+                        Ff()
+                Sound(dynamics=124.44)
+            with Note(default_x=121.43, default_y=-198.03):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('der')
+        with Measure(number='10', width=202.2):
+            with Note(default_x=25.69, default_y=-198.03):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('Tem')
+            with Note(default_x=65.89, default_y=-198.03):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('pel')
+            with Note(default_x=96.03, default_y=-198.03):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('der')
+            with Note(default_x=120.93, default_y=-198.03):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(4.0)
+                Tie(type='start')
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+                with Notations():
+                    Tied(type='start')
+                with Lyric(number='1', default_y=-51.47, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('Frei')
+        with Measure(number='11', width=277.41):
+            with Note(default_x=25.69, default_y=-198.03):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(4.0)
+                Tie(type='stop')
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+                with Notations():
+                    Tied(type='stop')
+            with Note(default_x=148.79, default_y=-198.03):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=9.19, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('heit,')
+            with Note(default_x=203.24, default_y=-198.03):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('der')
+        with Measure(number='12', width=285.81):
+            with Note(default_x=25.69, default_y=-198.03):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('Tem')
+            with Note(default_x=82.32, default_y=-198.03):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('pel')
+            with Note(default_x=120.86, default_y=-183.03):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('der')
+            with Direction(placement='above'):
+                with DirectionType():
+                    with Dynamics(default_x=3.29, relative_y=30.0):
+                        Sf()
+                Sound(dynamics=124.44)
+            with Note(default_x=156.26, default_y=-183.03):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('Frei')
+            with Note(default_x=212.89, default_y=-193.03):
+                with Pitch():
+                    Step('C')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('heit')
+            with Note(default_x=248.82, default_y=-198.03):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('und')
+        with Measure(number='13', width=149.37):
+            with Note(default_x=20.16, default_y=-203.03):
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Slur(type='start', placement='below', number=1)
+                with Lyric(number='1', default_y=-51.47, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('Lie')
+            with Note(default_x=50.01, default_y=-198.03):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Slur(type='stop', number=1)
+            with Note(default_x=79.86, default_y=-198.03):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=8.78, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('be.')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+            with Barline(location='right'):
+                BarStyle('light-heavy')
+    with Part(id='P3'):
+        with Measure(number='1', width=244.27):
+            with Print():
+                with StaffLayout(number=1):
+                    StaffDistance(135.42)
+            with Attributes():
+                Divisions(4.0)
+                with Key():
+                    Fifths(-2)
+                with Time():
+                    Beats('2')
+                    BeatType('4')
+                with Clef():
+                    Sign('F')
+                    Line(4)
+            with Direction(placement='above'):
+                with DirectionType():
+                    with Dynamics(default_x=3.29, relative_y=30.0):
+                        F()
+                Sound(dynamics=106.67)
+            with Note(default_x=109.83, default_y=-360.3):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(4.0)
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.39, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('Wir')
+            with Note(default_x=147.58, default_y=-360.3):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.39, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('bau')
+            with Note(default_x=180.14, default_y=-360.3):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.39, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('en')
+            with Note(default_x=209.5, default_y=-360.3):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.39, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('und')
+        with Measure(number='2', width=110.84):
+            with Note(default_x=21.21, default_y=-360.3):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Notations():
+                    with Articulations():
+                        Accent()
+                with Lyric(number='1', default_x=6.58, default_y=-50.39, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('ster')
+            with Note(default_x=59.35, default_y=-360.3):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=9.43, default_y=-50.39, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('ben;')
+            with Note():
+                Rest()
+                Duration(4.0)
+                Voice('1')
+                Type('quarter')
+        with Measure(number='3', width=157.49):
+            with Direction(placement='above'):
+                with DirectionType():
+                    with Dynamics(default_x=3.29, relative_y=30.0):
+                        Sf()
+                Sound(dynamics=124.44)
+            with Note(default_x=23.06, default_y=-350.3):
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(4.0)
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.39, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('Wir')
+            with Note(default_x=60.8, default_y=-345.3):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.39, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('bau')
+            with Note(default_x=93.37, default_y=-340.3):
+                with Pitch():
+                    Step('C')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.39, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('en')
+            with Note(default_x=122.72, default_y=-340.3):
+                with Pitch():
+                    Step('C')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.39, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('und')
+        with Measure(number='4', width=136.22):
+            with Note(default_x=21.21, default_y=-345.3):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.39, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('ster')
+            with Note(default_x=59.35, default_y=-345.3):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=9.43, default_y=-50.39, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('ben;')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with Notations():
+                    Fermata(None, type='upright', relative_y=10.0)
+            with Note(default_x=100.92, default_y=-370.3):
+                with Pitch():
+                    Step('D')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.39, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('Aus')
+        with Measure(number='5', width=227.83):
+            with Note(default_x=29.9, default_y=-360.3):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.39, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('Trüm')
+            with Note(default_x=83.79, default_y=-370.3):
+                with Pitch():
+                    Step('D')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.39, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('mern')
+            with Note(default_x=117.88, default_y=-370.3):
+                with Pitch():
+                    Step('D')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.39, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('er')
+            with Note(default_x=153.26, default_y=-355.3):
+                with Pitch():
+                    Step('G')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=9.29, default_y=-50.39, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('steht,')
+            with Note(default_x=191.64, default_y=-355.3):
+                with Pitch():
+                    Step('G')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.39, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('ist')
+        with Measure(number='6', width=242.47):
+            with Note(default_x=30.95, default_y=-365.3):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.39, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('längst')
+            with Note(default_x=73.73, default_y=-355.3):
+                with Pitch():
+                    Step('G')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.39, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('uns')
+            with Note(default_x=103.4, default_y=-355.3):
+                with Pitch():
+                    Step('G')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.39, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('re')
+            with Note(default_x=128.7, default_y=-360.3):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.39, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('A')
+            with Note(default_x=163.87, default_y=-360.3):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Accidental('sharp')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.39, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('sche')
+            with Note(default_x=204.8, default_y=-360.3):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.39, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('vom')
+        with Measure(number='7', width=206.11):
+            with Note(default_x=24.64, default_y=-355.3):
+                with Pitch():
+                    Step('G')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.39, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('Win')
+            with Note(default_x=60.36, default_y=-360.3):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.39, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('de')
+            with Note(default_x=87.08, default_y=-360.3):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.39, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('ver')
+            with Note(default_x=128.88, default_y=-355.3):
+                with Pitch():
+                    Step('G')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=9.19, default_y=-50.39, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('weht,')
+            with Note(default_x=171.9, default_y=-350.3):
+                with Pitch():
+                    Step('A')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Accidental('flat')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.39, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('der')
+        with Measure(number='8', width=340.5):
+            with Print(new_system='yes'):
+                with StaffLayout(number=1):
+                    StaffDistance(141.64)
+            with Note(default_x=88.78, default_y=-354.67):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('Tem')
+            with Note(default_x=144.03, default_y=-354.67):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('pel')
+            with Note(default_x=178.56, default_y=-354.67):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('der')
+            with Note(default_x=213.18, default_y=-354.67):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('Frei')
+            with Note(default_x=268.44, default_y=-364.67):
+                with Pitch():
+                    Step('G')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('heit')
+            with Note(default_x=304.37, default_y=-369.67):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('und')
+        with Measure(number='9', width=156.79):
+            with Direction(placement='above'):
+                with DirectionType():
+                    with Dynamics(default_x=3.29, relative_y=30.0):
+                        P()
+                Sound(dynamics=54.44)
+            with Note(default_x=20.16, default_y=-369.67):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(4.0)
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('Lie')
+            with Note(default_x=87.67, default_y=-379.67):
+                with Pitch():
+                    Step('D')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=9.05, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('be,')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+        with Measure(number='10', width=202.2):
+            with Note():
+                Rest()
+                Duration(4.0)
+                Voice('1')
+                Type('quarter')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+            with Direction(placement='above'):
+                with DirectionType():
+                    with Dynamics(default_x=3.29, default_y=6.21, relative_y=30.0):
+                        Ff()
+                Sound(dynamics=124.44)
+            with Note(default_x=160.77, default_y=-339.67):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('der')
+        with Measure(number='11', width=277.41):
+            with Note(default_x=25.69, default_y=-339.67):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('Tem')
+            with Note(default_x=80.14, default_y=-339.67):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('pel')
+            with Note(default_x=114.17, default_y=-339.67):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('der')
+            with Note(default_x=148.79, default_y=-339.67):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(4)
+                Duration(4.0)
+                Tie(type='start')
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+                with Notations():
+                    Tied(type='start')
+                with Lyric(number='1', default_y=-50.92, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('Frei')
+        with Measure(number='12', width=285.81):
+            with Note(default_x=25.69, default_y=-339.67):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(4)
+                Duration(2.0)
+                Tie(type='stop')
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Notations():
+                    Tied(type='stop')
+            with Note(default_x=82.32, default_y=-339.67):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=9.19, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('heit,')
+            with Note(default_x=120.86, default_y=-354.67):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('der')
+            with Direction(placement='above'):
+                with DirectionType():
+                    with Dynamics(default_x=3.29, relative_y=30.0):
+                        Sf()
+                Sound(dynamics=124.44)
+            with Note(default_x=156.26, default_y=-354.67):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('Frei')
+            with Note(default_x=212.89, default_y=-364.67):
+                with Pitch():
+                    Step('G')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('heit')
+            with Note(default_x=248.82, default_y=-369.67):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('und')
+        with Measure(number='13', width=149.37):
+            with Note(default_x=20.16, default_y=-369.67):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(4.0)
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('Lie')
+            with Note(default_x=79.86, default_y=-379.67):
+                with Pitch():
+                    Step('D')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=8.78, default_y=-50.92, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('be.')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+            with Barline(location='right'):
+                BarStyle('light-heavy')
+    with Part(id='P4'):
+        with Measure(number='1', width=244.27):
+            with Print():
+                with StaffLayout(number=1):
+                    StaffDistance(134.35)
+            with Attributes():
+                Divisions(4.0)
+                with Key():
+                    Fifths(-2)
+                with Time():
+                    Beats('2')
+                    BeatType('4')
+                with Clef():
+                    Sign('F')
+                    Line(4)
+            with Direction(placement='above'):
+                with DirectionType():
+                    with Dynamics(default_x=6.58, relative_y=30.0):
+                        F()
+                Sound(dynamics=106.67)
+            with Note(default_x=109.83, default_y=-554.65):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(2)
+                Duration(4.0)
+                Voice('1')
+                Type('quarter')
+                Stem('up')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('Wir')
+            with Note(default_x=147.58, default_y=-544.65):
+                with Pitch():
+                    Step('D')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('bau')
+            with Note(default_x=180.14, default_y=-539.65):
+                with Pitch():
+                    Step('E')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Accidental('natural')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('en')
+            with Note(default_x=209.5, default_y=-539.65):
+                with Pitch():
+                    Step('E')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('und')
+        with Measure(number='2', width=110.84):
+            with Note(default_x=21.21, default_y=-534.65):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Notations():
+                    with Articulations():
+                        Accent()
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('ster')
+            with Note(default_x=59.35, default_y=-534.65):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=9.43, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('ben;')
+            with Note():
+                Rest()
+                Duration(4.0)
+                Voice('1')
+                Type('quarter')
+        with Measure(number='3', width=157.49):
+            with Direction(placement='above'):
+                with DirectionType():
+                    with Dynamics(default_x=3.29, relative_y=30.0):
+                        Sf()
+                Sound(dynamics=124.44)
+            with Note(default_x=23.06, default_y=-534.65):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(4.0)
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('Wir')
+            with Note(default_x=60.8, default_y=-529.65):
+                with Pitch():
+                    Step('G')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('bau')
+            with Note(default_x=93.37, default_y=-524.65):
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('en')
+            with Note(default_x=122.72, default_y=-524.65):
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('und')
+        with Measure(number='4', width=136.22):
+            with Note(default_x=21.21, default_y=-519.65):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('ster')
+            with Note(default_x=59.35, default_y=-554.65):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(2)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+                with Lyric(number='1', default_x=9.43, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('ben;')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with Notations():
+                    Fermata(None, type='upright', relative_y=10.0)
+            with Note(default_x=100.92, default_y=-544.65):
+                with Pitch():
+                    Step('D')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('Aus')
+        with Measure(number='5', width=227.83):
+            with Note(default_x=29.9, default_y=-544.65):
+                with Pitch():
+                    Step('D')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('Trüm')
+            with Note(default_x=83.79, default_y=-554.65):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(2)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('up')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('mern')
+            with Note(default_x=117.88, default_y=-554.65):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(2)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('up')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('er')
+            with Note(default_x=153.26, default_y=-539.65):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=9.29, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('steht,')
+            with Note(default_x=191.64, default_y=-539.65):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('ist')
+        with Measure(number='6', width=242.47):
+            with Note(default_x=30.95, default_y=-549.65):
+                with Pitch():
+                    Step('C')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('längst')
+            with Note(default_x=73.73, default_y=-539.65):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('uns')
+            with Note(default_x=103.4, default_y=-539.65):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('re')
+            with Note(default_x=128.7, default_y=-534.65):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('A')
+            with Note(default_x=163.87, default_y=-544.65):
+                with Pitch():
+                    Step('D')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('sche')
+            with Note(default_x=204.8, default_y=-544.65):
+                with Pitch():
+                    Step('D')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('vom')
+        with Measure(number='7', width=206.11):
+            with Note(default_x=24.64, default_y=-529.65):
+                with Pitch():
+                    Step('G')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('Win')
+            with Note(default_x=60.36, default_y=-524.65):
+                with Pitch():
+                    Step('A')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Accidental('flat')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('de')
+            with Note(default_x=87.08, default_y=-524.65):
+                with Pitch():
+                    Step('A')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('ver')
+            with Note(default_x=128.88, default_y=-529.65):
+                with Pitch():
+                    Step('G')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=9.19, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('weht,')
+            with Note(default_x=171.9, default_y=-534.65):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-51.47, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('der')
+        with Measure(number='8', width=340.5):
+            with Print(new_system='yes'):
+                with StaffLayout(number=1):
+                    StaffDistance(141.09)
+            with Note(default_x=88.78, default_y=-555.75):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-46.47, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('Tem')
+            with Note(default_x=144.03, default_y=-545.75):
+                with Pitch():
+                    Step('G')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-46.47, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('pel')
+            with Note(default_x=178.56, default_y=-535.75):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-46.47, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('der')
+            with Note(default_x=213.18, default_y=-520.75):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-46.47, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('Frei')
+            with Note(default_x=268.44, default_y=-555.75):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-46.47, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('heit')
+            with Note(default_x=304.37, default_y=-550.75):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-46.47, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('und')
+        with Measure(number='9', width=156.79):
+            with Direction(placement='above'):
+                with DirectionType():
+                    with Dynamics(default_x=3.29, relative_y=30.0):
+                        P()
+                Sound(dynamics=54.44)
+            with Note(default_x=20.16, default_y=-550.75):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(4.0)
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-46.47, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('Lie')
+            with Note(default_x=87.67, default_y=-570.75):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(2)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+                with Lyric(number='1', default_x=9.05, default_y=-46.47, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('be,')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+        with Measure(number='10', width=202.2):
+            with Note():
+                Rest()
+                Duration(4.0)
+                Voice('1')
+                Type('quarter')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+            with Direction(placement='above'):
+                with DirectionType():
+                    with Dynamics(default_x=3.29, relative_y=30.0):
+                        Ff()
+                Sound(dynamics=124.44)
+            with Note(default_x=160.77, default_y=-545.75):
+                with Pitch():
+                    Step('G')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-46.47, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('der')
+        with Measure(number='11', width=277.41):
+            with Note(default_x=25.69, default_y=-545.75):
+                with Pitch():
+                    Step('G')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-46.47, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('Tem')
+            with Note(default_x=80.14, default_y=-545.75):
+                with Pitch():
+                    Step('G')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-46.47, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('pel')
+            with Note(default_x=114.17, default_y=-545.75):
+                with Pitch():
+                    Step('G')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-46.47, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('der')
+            with Note(default_x=148.79, default_y=-545.75):
+                with Pitch():
+                    Step('G')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-46.47, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('Frei')
+            with Note(default_x=203.24, default_y=-555.75):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=9.19, default_y=-46.47, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('heit,')
+            with Note(default_x=241.78, default_y=-555.75):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-46.47, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('der')
+        with Measure(number='12', width=285.81):
+            with Note(default_x=25.69, default_y=-555.75):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-46.47, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('Tem')
+            with Note(default_x=82.32, default_y=-545.75):
+                with Pitch():
+                    Step('G')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-46.47, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('pel')
+            with Note(default_x=120.86, default_y=-535.75):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-46.47, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('der')
+            with Direction(placement='above'):
+                with DirectionType():
+                    with Dynamics(default_x=3.29, default_y=6.21, relative_y=30.0):
+                        Sf()
+                Sound(dynamics=124.44)
+            with Note(default_x=156.26, default_y=-520.75):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-46.47, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('Frei')
+            with Note(default_x=212.89, default_y=-555.75):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-46.47, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('heit')
+            with Note(default_x=248.82, default_y=-550.75):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-46.47, relative_y=-30.0):
+                    Syllabic('single')
+                    Text('und')
+        with Measure(number='13', width=149.37):
+            with Note(default_x=20.16, default_y=-550.75):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(4.0)
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+                with Lyric(number='1', default_x=6.58, default_y=-46.47, relative_y=-30.0):
+                    Syllabic('begin')
+                    Text('Lie')
+            with Note(default_x=79.86, default_y=-570.75):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(2)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+                with Lyric(number='1', default_x=8.78, default_y=-46.47, relative_y=-30.0):
+                    Syllabic('end')
+                    Text('be.')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+            with Barline(location='right'):
+                BarStyle('light-heavy')

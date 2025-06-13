@@ -1,0 +1,4965 @@
+with ScorePartwise(version='3.1'):
+    with Work():
+        WorkTitle('Title')
+    with Identification():
+        Creator('Composer', type='composer')
+        with Encoding():
+            Software('MuseScore 3.6.2')
+            EncodingDate('2025-01-14')
+            Supports(element='accidental', type='yes')
+            Supports(element='beam', type='yes')
+            Supports(element='print', attribute='new-page', type='yes', value='yes')
+            Supports(element='print', attribute='new-system', type='yes', value='yes')
+            Supports(element='stem', type='yes')
+    with Defaults():
+        with Scaling():
+            Millimeters(7.05556)
+            Tenths(40.0)
+        with PageLayout():
+            PageHeight(1584.0)
+            PageWidth(1224.0)
+            with PageMargins(type='even'):
+                LeftMargin(56.6929)
+                RightMargin(56.6929)
+                TopMargin(56.6929)
+                BottomMargin(113.386)
+            with PageMargins(type='odd'):
+                LeftMargin(56.6929)
+                RightMargin(56.6929)
+                TopMargin(56.6929)
+                BottomMargin(113.386)
+        WordFont(font_family='FreeSerif', font_size='10')
+        LyricFont(font_family='FreeSerif', font_size='11')
+    with Credit(page=1):
+        CreditType('title')
+        CreditWords('Sonata No. 14', default_x=612.0, default_y=1527.31, justify='center', valign='top', font_size='24')
+    with Credit(page=1):
+        CreditType('composer')
+        CreditWords('Ludwig van Beethoven\n', default_x=1167.31, default_y=1427.31, justify='right', valign='bottom', font_size='12')
+        CreditWords('Arranged by Jason Qin\n')
+        CreditWords(None)
+    with Credit(page=1):
+        CreditType('subtitle')
+        CreditWords('1st Movement\n', default_x=612.0, default_y=1470.61, justify='center', valign='top', font_size='14')
+        CreditWords(None)
+    with PartList():
+        with ScorePart(id='P1'):
+            PartName('Violin')
+            PartAbbreviation('Vln.')
+            with ScoreInstrument(id='P1-I1'):
+                InstrumentName('Violin')
+            MidiDevice(None, id='P1-I1', port=1)
+            with MidiInstrument(id='P1-I1'):
+                MidiChannel(2)
+                MidiProgram(41)
+                Volume(78.7402)
+                Pan(0.0)
+        with ScorePart(id='P2'):
+            PartName('Violoncello')
+            PartAbbreviation('Vc.')
+            with ScoreInstrument(id='P2-I1'):
+                InstrumentName('Violoncello')
+            MidiDevice(None, id='P2-I1', port=1)
+            with MidiInstrument(id='P2-I1'):
+                MidiChannel(1)
+                MidiProgram(43)
+                Volume(78.7402)
+                Pan(0.0)
+        with ScorePart(id='P3'):
+            PartName('Contrabass')
+            PartAbbreviation('Cb.')
+            with ScoreInstrument(id='P3-I1'):
+                InstrumentName('Contrabass')
+            MidiDevice(None, id='P3-I1', port=1)
+            with MidiInstrument(id='P3-I1'):
+                MidiChannel(7)
+                MidiProgram(44)
+                Volume(78.7402)
+                Pan(0.0)
+    with Part(id='P1'):
+        with Measure(number='1', width=412.49):
+            with Print():
+                with SystemLayout():
+                    with SystemMargins():
+                        LeftMargin(119.2)
+                        RightMargin(0.0)
+                    TopSystemDistance(170.0)
+            with Attributes():
+                Divisions(6.0)
+                with Key():
+                    Fifths(4)
+                with Time():
+                    Beats('4')
+                    BeatType('4')
+                with Clef():
+                    Sign('G')
+                    Line(2)
+            with Direction(placement='above'):
+                with DirectionType():
+                    with Metronome(parentheses='no', default_x=-43.12, relative_x=8.12, relative_y=-1.01):
+                        BeatUnit('quarter')
+                        PerMinute('50')
+                with DirectionType():
+                    Words('\n', default_x=-43.12, relative_x=8.12, relative_y=-1.01, font_weight='bold', font_size='12')
+                    Words(None)
+                Sound(tempo=50.0)
+            with Direction(placement='below'):
+                with DirectionType():
+                    with Dynamics(default_x=6.58, default_y=-46.8, relative_y=-40.0):
+                        Pp()
+                Sound(dynamics=36.67)
+            with Note(default_x=139.39, default_y=-65.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+            with Note(default_x=162.65, default_y=-50.0):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('continue', number=1)
+            with Note(default_x=184.84, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=207.02, default_y=-65.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+            with Note(default_x=230.28, default_y=-50.0):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('continue', number=1)
+            with Note(default_x=252.47, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=274.65, default_y=-65.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+            with Note(default_x=297.91, default_y=-50.0):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('continue', number=1)
+            with Note(default_x=320.1, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=342.28, default_y=-65.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+            with Note(default_x=365.54, default_y=-50.0):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('continue', number=1)
+            with Note(default_x=387.72, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+        with Measure(number='2', width=290.22):
+            with Note(default_x=17.12, default_y=-65.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+            with Note(default_x=40.39, default_y=-50.0):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('continue', number=1)
+            with Note(default_x=62.57, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=84.75, default_y=-65.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+            with Note(default_x=108.02, default_y=-50.0):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('continue', number=1)
+            with Note(default_x=130.2, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=152.38, default_y=-65.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+            with Note(default_x=175.64, default_y=-50.0):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('continue', number=1)
+            with Note(default_x=197.83, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=220.01, default_y=-65.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+            with Note(default_x=243.27, default_y=-50.0):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('continue', number=1)
+            with Note(default_x=265.46, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+        with Measure(number='3', width=288.7):
+            with Note(default_x=14.16, default_y=-60.0):
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+            with Note(default_x=37.43, default_y=-50.0):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('continue', number=1)
+            with Note(default_x=59.3, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=81.17, default_y=-60.0):
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+            with Note(default_x=104.44, default_y=-50.0):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('continue', number=1)
+            with Note(default_x=126.31, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=148.18, default_y=-60.0):
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+            with Note(default_x=176.45, default_y=-45.0):
+                with Pitch():
+                    Step('D')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Accidental('natural')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('continue', number=1)
+            with Note(default_x=198.32, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=220.19, default_y=-60.0):
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+            with Note(default_x=242.06, default_y=-45.0):
+                with Pitch():
+                    Step('D')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('continue', number=1)
+            with Note(default_x=263.94, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+        with Measure(number='4', width=1061.81):
+            with Print(new_system='yes'):
+                with SystemLayout():
+                    with SystemMargins():
+                        LeftMargin(48.8)
+                        RightMargin(0.0)
+                    SystemDistance(150.0)
+            with Note(default_x=118.33, default_y=-65.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+            with Note(default_x=196.82, default_y=-55.0):
+                with Pitch():
+                    Step('B')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Accidental('sharp')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('continue', number=1)
+            with Note(default_x=275.31, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=353.8, default_y=-65.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+            with Note(default_x=432.29, default_y=-50.0):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('continue', number=1)
+            with Note(default_x=510.78, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=589.27, default_y=-65.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+            with Note(default_x=667.76, default_y=-50.0):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('continue', number=1)
+            with Note(default_x=746.25, default_y=-45.0):
+                with Pitch():
+                    Step('D')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note(default_x=903.23, default_y=-55.0):
+                with Pitch():
+                    Step('B')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+            with Note(default_x=981.72, default_y=-45.0):
+                with Pitch():
+                    Step('D')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+        with Measure(number='5', width=427.08):
+            with Print(new_system='yes'):
+                with SystemLayout():
+                    with SystemMargins():
+                        LeftMargin(48.8)
+                        RightMargin(-0.0)
+                    SystemDistance(150.0)
+            with Note():
+                Rest()
+                Duration(6.0)
+                Voice('1')
+                Type('quarter')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note(default_x=215.9, default_y=-50.0):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+            with Note(default_x=240.29, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note(default_x=289.08, default_y=-50.0):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+            with Note(default_x=313.47, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=337.86, default_y=-30.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                    NormalType('eighth')
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+            with Note(default_x=362.26, default_y=-50.0):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                    NormalType('eighth')
+                Stem('up')
+                Beam('continue', number=1)
+            with Note(default_x=386.65, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                    NormalType('eighth')
+                Stem('up')
+                Beam('continue', number=1)
+                Beam('begin', number=2)
+            with Note(default_x=402.31, default_y=-30.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                    NormalType('eighth')
+                Stem('up')
+                Beam('end', number=1)
+                Beam('end', number=2)
+                with Notations():
+                    Tuplet(type='stop')
+        with Measure(number='6', width=330.77):
+            with Note(default_x=22.16, default_y=-30.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+                    Slur(type='start', placement='below', number=1)
+            with Note(default_x=46.54, default_y=-45.0):
+                with Pitch():
+                    Step('D')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('continue', number=1)
+                with Notations():
+                    Slur(type='stop', number=1)
+            with Note(default_x=70.92, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note(default_x=119.68, default_y=-45.0):
+                with Pitch():
+                    Step('D')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+            with Note(default_x=144.06, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note(default_x=192.82, default_y=-45.0):
+                with Pitch():
+                    Step('D')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+            with Note(default_x=217.2, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=241.58, default_y=-30.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                    NormalType('eighth')
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+            with Note(default_x=265.96, default_y=-45.0):
+                with Pitch():
+                    Step('D')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                    NormalType('eighth')
+                Stem('up')
+                Beam('continue', number=1)
+            with Note(default_x=290.33, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                    NormalType('eighth')
+                Stem('up')
+                Beam('continue', number=1)
+                Beam('begin', number=2)
+            with Note(default_x=306.0, default_y=-30.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                    NormalType('eighth')
+                Stem('up')
+                Beam('end', number=1)
+                Beam('end', number=2)
+                with Notations():
+                    Tuplet(type='stop')
+        with Measure(number='7', width=303.97):
+            with Note(default_x=14.16, default_y=-30.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+                    Slur(type='start', placement='below', number=1)
+            with Note(default_x=38.18, default_y=-50.0):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('continue', number=1)
+                with Notations():
+                    Slur(type='stop', number=1)
+            with Note(default_x=62.2, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note(default_x=110.23, default_y=-50.0):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+            with Note(default_x=134.25, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=158.26, default_y=-25.0):
+                with Pitch():
+                    Step('A')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+                    Slur(type='start', placement='below', number=1)
+            with Note(default_x=182.28, default_y=-50.0):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('continue', number=1)
+                with Notations():
+                    Slur(type='stop', number=1)
+            with Note(default_x=206.3, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note(default_x=254.33, default_y=-50.0):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+            with Note(default_x=278.35, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+        with Measure(number='8', width=1061.81):
+            with Print(new_page='yes'):
+                with SystemLayout():
+                    with SystemMargins():
+                        LeftMargin(48.8)
+                        RightMargin(0.0)
+                    TopSystemDistance(70.0)
+            with Note(default_x=115.37, default_y=-30.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(4.0)
+                Voice('1')
+                Type('quarter')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                    NormalType('eighth')
+                Stem('up')
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note(default_x=272.85, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                    NormalType('eighth')
+                Stem('up')
+                with Notations():
+                    Tuplet(type='stop')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+            with Note(default_x=509.06, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=587.79, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+            with Note(default_x=745.27, default_y=-45.0):
+                with Pitch():
+                    Step('D')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=824.0, default_y=-20.0):
+                with Pitch():
+                    Step('B')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+            with Note(default_x=981.48, default_y=-45.0):
+                with Pitch():
+                    Step('D')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                with Notations():
+                    Tuplet(type='stop')
+        with Measure(number='9', width=423.03):
+            with Print(new_system='yes'):
+                with SystemLayout():
+                    with SystemMargins():
+                        LeftMargin(48.8)
+                        RightMargin(0.0)
+                    SystemDistance(85.84)
+            with Direction(placement='below'):
+                with DirectionType():
+                    with Dynamics(default_x=6.58, default_y=-40.0, relative_y=-40.0):
+                        Pp()
+                Sound(dynamics=36.67)
+            with Note(default_x=115.37, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(4.0)
+                Voice('1')
+                Type('quarter')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                    NormalType('eighth')
+                Stem('up')
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note(default_x=165.06, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                    NormalType('eighth')
+                Stem('up')
+                with Notations():
+                    Tuplet(type='stop')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+            with Note(default_x=239.59, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                with Notations():
+                    Tuplet(type='stop')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+            with Note(default_x=314.13, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                with Notations():
+                    Tuplet(type='stop')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+            with Note(default_x=388.66, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                with Notations():
+                    Tuplet(type='stop')
+        with Measure(number='10', width=319.39):
+            with Direction(placement='below'):
+                with DirectionType():
+                    with Dynamics(default_x=6.58, default_y=-46.8, relative_y=-40.0):
+                        Pp()
+                Sound(dynamics=36.67)
+            with Note(default_x=17.12, default_y=-65.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+            with Note(default_x=42.18, default_y=-50.0):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('continue', number=1)
+            with Note(default_x=67.23, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=92.29, default_y=-65.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+            with Note(default_x=117.34, default_y=-50.0):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('continue', number=1)
+            with Note(default_x=142.4, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=167.45, default_y=-65.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+            with Note(default_x=192.51, default_y=-50.0):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('continue', number=1)
+            with Note(default_x=217.57, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=242.62, default_y=-65.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+            with Note(default_x=267.68, default_y=-50.0):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('continue', number=1)
+            with Note(default_x=292.73, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+        with Measure(number='11', width=319.39):
+            with Note(default_x=17.12, default_y=-65.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+            with Note(default_x=42.18, default_y=-50.0):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('continue', number=1)
+            with Note(default_x=67.23, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=92.29, default_y=-65.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+            with Note(default_x=117.34, default_y=-50.0):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('continue', number=1)
+            with Note(default_x=142.4, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=167.45, default_y=-65.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+            with Note(default_x=192.51, default_y=-50.0):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('continue', number=1)
+            with Note(default_x=217.57, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=242.62, default_y=-65.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+            with Note(default_x=267.68, default_y=-50.0):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('continue', number=1)
+            with Note(default_x=292.73, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+        with Measure(number='12', width=573.46):
+            with Print(new_system='yes'):
+                with SystemLayout():
+                    with SystemMargins():
+                        LeftMargin(48.8)
+                        RightMargin(0.0)
+                    SystemDistance(85.84)
+            with Note(default_x=115.37, default_y=-60.0):
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+            with Note(default_x=153.41, default_y=-50.0):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('continue', number=1)
+            with Note(default_x=191.45, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=229.49, default_y=-60.0):
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+            with Note(default_x=267.53, default_y=-50.0):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('continue', number=1)
+            with Note(default_x=305.58, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=343.62, default_y=-60.0):
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+            with Note(default_x=381.66, default_y=-45.0):
+                with Pitch():
+                    Step('D')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Accidental('natural')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('continue', number=1)
+            with Note(default_x=419.7, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=457.74, default_y=-60.0):
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+            with Note(default_x=495.78, default_y=-45.0):
+                with Pitch():
+                    Step('D')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('continue', number=1)
+            with Note(default_x=533.82, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+        with Measure(number='13', width=488.36):
+            with Note(default_x=17.12, default_y=-65.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+            with Note(default_x=56.26, default_y=-55.0):
+                with Pitch():
+                    Step('B')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Accidental('sharp')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('continue', number=1)
+            with Note(default_x=95.39, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=134.53, default_y=-65.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+            with Note(default_x=173.67, default_y=-50.0):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('continue', number=1)
+            with Note(default_x=212.8, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=251.94, default_y=-65.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+            with Note(default_x=291.07, default_y=-50.0):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('continue', number=1)
+            with Note(default_x=330.21, default_y=-45.0):
+                with Pitch():
+                    Step('D')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note(default_x=408.48, default_y=-55.0):
+                with Pitch():
+                    Step('B')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+            with Note(default_x=447.62, default_y=-45.0):
+                with Pitch():
+                    Step('D')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+        with Measure(number='14', width=427.08):
+            with Print(new_system='yes'):
+                with SystemLayout():
+                    with SystemMargins():
+                        LeftMargin(48.8)
+                        RightMargin(-0.0)
+                    SystemDistance(85.84)
+            with Note():
+                Rest()
+                Duration(6.0)
+                Voice('1')
+                Type('quarter')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note(default_x=215.9, default_y=-50.0):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+            with Note(default_x=240.29, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note(default_x=289.08, default_y=-50.0):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+            with Note(default_x=313.47, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=337.86, default_y=-30.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                    NormalType('eighth')
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+            with Note(default_x=362.26, default_y=-50.0):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                    NormalType('eighth')
+                Stem('up')
+                Beam('continue', number=1)
+            with Note(default_x=386.65, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                    NormalType('eighth')
+                Stem('up')
+                Beam('continue', number=1)
+                Beam('begin', number=2)
+            with Note(default_x=402.31, default_y=-30.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                    NormalType('eighth')
+                Stem('up')
+                Beam('end', number=1)
+                Beam('end', number=2)
+                with Notations():
+                    Tuplet(type='stop')
+        with Measure(number='15', width=330.77):
+            with Note(default_x=22.16, default_y=-30.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+                    Slur(type='start', placement='below', number=1)
+            with Note(default_x=46.54, default_y=-45.0):
+                with Pitch():
+                    Step('D')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('continue', number=1)
+                with Notations():
+                    Slur(type='stop', number=1)
+            with Note(default_x=70.92, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note(default_x=119.68, default_y=-45.0):
+                with Pitch():
+                    Step('D')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+            with Note(default_x=144.06, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note(default_x=192.82, default_y=-45.0):
+                with Pitch():
+                    Step('D')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+            with Note(default_x=217.2, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=241.58, default_y=-30.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                    NormalType('eighth')
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+            with Note(default_x=265.96, default_y=-45.0):
+                with Pitch():
+                    Step('D')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                    NormalType('eighth')
+                Stem('up')
+                Beam('continue', number=1)
+            with Note(default_x=290.33, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                    NormalType('eighth')
+                Stem('up')
+                Beam('continue', number=1)
+                Beam('begin', number=2)
+            with Note(default_x=306.0, default_y=-30.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                    NormalType('eighth')
+                Stem('up')
+                Beam('end', number=1)
+                Beam('end', number=2)
+                with Notations():
+                    Tuplet(type='stop')
+        with Measure(number='16', width=303.97):
+            with Note(default_x=14.16, default_y=-30.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+                    Slur(type='start', placement='below', number=1)
+            with Note(default_x=38.18, default_y=-50.0):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('continue', number=1)
+                with Notations():
+                    Slur(type='stop', number=1)
+            with Note(default_x=62.2, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note(default_x=110.23, default_y=-50.0):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+            with Note(default_x=134.25, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=158.26, default_y=-25.0):
+                with Pitch():
+                    Step('A')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+                    Slur(type='start', placement='below', number=1)
+            with Note(default_x=182.28, default_y=-50.0):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('continue', number=1)
+                with Notations():
+                    Slur(type='stop', number=1)
+            with Note(default_x=206.3, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note(default_x=254.33, default_y=-50.0):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('begin', number=1)
+            with Note(default_x=278.35, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+        with Measure(number='17', width=1061.81):
+            with Print(new_page='yes'):
+                with SystemLayout():
+                    with SystemMargins():
+                        LeftMargin(48.8)
+                        RightMargin(0.0)
+                    TopSystemDistance(70.0)
+            with Note(default_x=115.37, default_y=-30.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+            with Note(default_x=272.85, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                with Notations():
+                    Tuplet(type='stop')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+            with Note(default_x=509.06, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=587.79, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+            with Note(default_x=745.27, default_y=-45.0):
+                with Pitch():
+                    Step('D')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=824.0, default_y=-20.0):
+                with Pitch():
+                    Step('B')
+                    Octave(4)
+                Duration(4.0)
+                Voice('1')
+                Type('quarter')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                    NormalType('eighth')
+                Stem('down')
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note(default_x=981.48, default_y=-45.0):
+                with Pitch():
+                    Step('D')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                    NormalType('eighth')
+                Stem('up')
+                with Notations():
+                    Tuplet(type='stop')
+        with Measure(number='18', width=378.2):
+            with Print(new_system='yes'):
+                with SystemLayout():
+                    with SystemMargins():
+                        LeftMargin(48.8)
+                        RightMargin(683.61)
+                    SystemDistance(150.0)
+            with Direction(placement='below'):
+                with DirectionType():
+                    Words('dim.', font_family='FreeSerif', font_size='12', font_style='italic', default_y=-73.07, relative_x=-0.69)
+                with DirectionType():
+                    Dashes(type='start', number=1, default_y=-73.07, relative_x=-0.69)
+            with Note(default_x=115.01, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(24.0)
+                Voice('1')
+                Type('whole')
+            with Direction(placement='below'):
+                with DirectionType():
+                    Dashes(type='stop', number=1)
+            with Barline(location='right'):
+                BarStyle('light-heavy')
+    with Part(id='P2'):
+        with Measure(number='1', width=412.49):
+            with Print():
+                with StaffLayout(number=1):
+                    StaffDistance(65.55)
+            with Attributes():
+                Divisions(6.0)
+                with Key():
+                    Fifths(4)
+                with Time():
+                    Beats('4')
+                    BeatType('4')
+                with Clef():
+                    Sign('F')
+                    Line(4)
+            with Direction(placement='below'):
+                with DirectionType():
+                    with Dynamics(default_x=6.58, default_y=-40.0, relative_y=-40.0):
+                        P()
+                Sound(dynamics=54.44)
+            with Note(default_x=139.03, default_y=-145.55):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(2)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+            with Note(default_x=139.03, default_y=-130.55):
+                Chord()
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+            with Note(default_x=274.29, default_y=-130.55):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+        with Measure(number='2', width=290.22):
+            with Note(default_x=16.76, default_y=-150.55):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(2)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+            with Note(default_x=16.76, default_y=-135.55):
+                Chord()
+                with Pitch():
+                    Step('B')
+                    Octave(2)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+            with Note(default_x=152.02, default_y=-135.55):
+                with Pitch():
+                    Step('B')
+                    Octave(2)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+        with Measure(number='3', width=288.7):
+            with Note(default_x=13.8, default_y=-150.55):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(2)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+            with Note(default_x=13.8, default_y=-140.55):
+                Chord()
+                with Pitch():
+                    Step('A')
+                    Octave(2)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+            with Note(default_x=147.82, default_y=-150.55):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(2)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+        with Measure(number='4', width=1061.81):
+            with Print(new_system='yes'):
+                with StaffLayout(number=1):
+                    StaffDistance(65.0)
+            with Note(default_x=117.97, default_y=-160.0):
+                with Pitch():
+                    Step('D')
+                    Alter(1.0)
+                    Octave(2)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+            with Note(default_x=117.97, default_y=-145.0):
+                Chord()
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(2)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+            with Note(default_x=589.27, default_y=-145.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(2)
+                Duration(6.0)
+                Voice('1')
+                Type('quarter')
+                Stem('up')
+            with Note(default_x=824.74, default_y=-115.0):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(6.0)
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+        with Measure(number='5', width=427.08):
+            with Print(new_system='yes'):
+                with StaffLayout(number=1):
+                    StaffDistance(82.53)
+            with Note(default_x=118.33, default_y=-137.53):
+                with Pitch():
+                    Step('E')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+            with Note(default_x=142.73, default_y=-127.53):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                Beam('continue', number=1)
+            with Note(default_x=167.12, default_y=-112.53):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=191.51, default_y=-147.53):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note(default_x=191.51, default_y=-137.53):
+                Chord()
+                with Pitch():
+                    Step('E')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=264.69, default_y=-137.53):
+                with Pitch():
+                    Step('E')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=337.86, default_y=-137.53):
+                with Pitch():
+                    Step('E')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='stop')
+        with Measure(number='6', width=330.77):
+            with Note(default_x=22.16, default_y=-142.53):
+                with Pitch():
+                    Step('D')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note(default_x=22.16, default_y=-127.53):
+                Chord()
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=95.3, default_y=-127.53):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=168.44, default_y=-127.53):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=241.58, default_y=-127.53):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='stop')
+        with Measure(number='7', width=303.97):
+            with Note(default_x=14.16, default_y=-162.53):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(2)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note(default_x=14.16, default_y=-127.53):
+                Chord()
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=86.21, default_y=-127.53):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=158.26, default_y=-122.53):
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=230.32, default_y=-122.53):
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='stop')
+        with Measure(number='8', width=1061.81):
+            with Print(new_page='yes'):
+                with StaffLayout(number=1):
+                    StaffDistance(65.0)
+            with Note(default_x=115.37, default_y=-110.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note(default_x=194.11, default_y=-100.0):
+                with Pitch():
+                    Step('B')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                Beam('end', number=1)
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=351.58, default_y=-110.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note(default_x=430.32, default_y=-100.0):
+                with Pitch():
+                    Step('B')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                Beam('end', number=1)
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=587.79, default_y=-105.0):
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note(default_x=666.53, default_y=-100.0):
+                with Pitch():
+                    Step('B')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                Beam('end', number=1)
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=824.0, default_y=-105.0):
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note(default_x=902.74, default_y=-100.0):
+                with Pitch():
+                    Step('B')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                Beam('end', number=1)
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='stop')
+        with Measure(number='9', width=423.03):
+            with Print(new_system='yes'):
+                with StaffLayout(number=1):
+                    StaffDistance(65.55)
+            with Direction(placement='below'):
+                with DirectionType():
+                    with Dynamics(default_x=3.29, default_y=-40.0, relative_y=-40.0):
+                        Pp()
+                Sound(dynamics=36.67)
+            with Note(default_x=115.37, default_y=-110.55):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note(default_x=140.22, default_y=-100.55):
+                with Pitch():
+                    Step('B')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                Beam('end', number=1)
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=189.91, default_y=-110.55):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note(default_x=214.75, default_y=-100.55):
+                with Pitch():
+                    Step('B')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                Beam('end', number=1)
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=264.44, default_y=-110.55):
+                with Pitch():
+                    Step('G')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Accidental('natural')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note(default_x=289.28, default_y=-100.55):
+                with Pitch():
+                    Step('B')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                Beam('end', number=1)
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=338.97, default_y=-110.55):
+                with Pitch():
+                    Step('G')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note(default_x=363.82, default_y=-100.55):
+                with Pitch():
+                    Step('B')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                Beam('end', number=1)
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='stop')
+        with Measure(number='10', width=319.39):
+            with Note(default_x=16.76, default_y=-145.55):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(2)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+            with Note(default_x=16.76, default_y=-130.55):
+                Chord()
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+            with Note(default_x=167.09, default_y=-130.55):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+        with Measure(number='11', width=319.39):
+            with Note(default_x=16.76, default_y=-150.55):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(2)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+            with Note(default_x=16.76, default_y=-135.55):
+                Chord()
+                with Pitch():
+                    Step('B')
+                    Octave(2)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+            with Note(default_x=167.09, default_y=-135.55):
+                with Pitch():
+                    Step('B')
+                    Octave(2)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+        with Measure(number='12', width=573.46):
+            with Print(new_system='yes'):
+                with StaffLayout(number=1):
+                    StaffDistance(65.0)
+            with Note(default_x=115.01, default_y=-150.0):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(2)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+            with Note(default_x=115.01, default_y=-140.0):
+                Chord()
+                with Pitch():
+                    Step('A')
+                    Octave(2)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+            with Note(default_x=343.25, default_y=-150.0):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(2)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+        with Measure(number='13', width=488.36):
+            with Note(default_x=16.76, default_y=-160.0):
+                with Pitch():
+                    Step('D')
+                    Alter(1.0)
+                    Octave(2)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+            with Note(default_x=16.76, default_y=-145.0):
+                Chord()
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(2)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+            with Note(default_x=251.94, default_y=-145.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(2)
+                Duration(6.0)
+                Voice('1')
+                Type('quarter')
+                Stem('up')
+            with Note(default_x=369.35, default_y=-115.0):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(6.0)
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+        with Measure(number='14', width=427.08):
+            with Print(new_system='yes'):
+                with StaffLayout(number=1):
+                    StaffDistance(79.59)
+            with Note(default_x=118.33, default_y=-134.59):
+                with Pitch():
+                    Step('E')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='no')
+            with Note(default_x=142.73, default_y=-124.59):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                Beam('continue', number=1)
+            with Note(default_x=167.12, default_y=-109.59):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                Beam('end', number=1)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=191.51, default_y=-144.59):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note(default_x=191.51, default_y=-134.59):
+                Chord()
+                with Pitch():
+                    Step('E')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=264.69, default_y=-134.59):
+                with Pitch():
+                    Step('E')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=337.86, default_y=-134.59):
+                with Pitch():
+                    Step('E')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='stop')
+        with Measure(number='15', width=330.77):
+            with Note(default_x=22.16, default_y=-139.59):
+                with Pitch():
+                    Step('D')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note(default_x=22.16, default_y=-124.59):
+                Chord()
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=95.3, default_y=-124.59):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=168.44, default_y=-124.59):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=241.58, default_y=-124.59):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='stop')
+        with Measure(number='16', width=303.97):
+            with Note(default_x=14.16, default_y=-159.59):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(2)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note(default_x=14.16, default_y=-124.59):
+                Chord()
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('up')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=86.21, default_y=-124.59):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=158.26, default_y=-119.59):
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=230.32, default_y=-119.59):
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='stop')
+        with Measure(number='17', width=1061.81):
+            with Print(new_page='yes'):
+                with StaffLayout(number=1):
+                    StaffDistance(65.0)
+            with Note(default_x=115.37, default_y=-110.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note(default_x=194.11, default_y=-100.0):
+                with Pitch():
+                    Step('B')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                Beam('end', number=1)
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=351.58, default_y=-110.0):
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note(default_x=430.32, default_y=-100.0):
+                with Pitch():
+                    Step('B')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                Beam('end', number=1)
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=587.79, default_y=-105.0):
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note(default_x=666.53, default_y=-100.0):
+                with Pitch():
+                    Step('B')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                Beam('end', number=1)
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='stop')
+            with Note(default_x=824.0, default_y=-105.0):
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                Beam('begin', number=1)
+                with Notations():
+                    Tuplet(type='start', bracket='yes')
+            with Note(default_x=902.74, default_y=-100.0):
+                with Pitch():
+                    Step('B')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                Stem('down')
+                Beam('end', number=1)
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                with TimeModification():
+                    ActualNotes(3)
+                    NormalNotes(2)
+                with Notations():
+                    Tuplet(type='stop')
+        with Measure(number='18', width=378.2):
+            with Print(new_system='yes'):
+                with StaffLayout(number=1):
+                    StaffDistance(65.0)
+            with Direction(placement='below'):
+                with DirectionType():
+                    Words('dim.', font_family='FreeSerif', font_size='12', font_style='italic', default_y=-66.84)
+                with DirectionType():
+                    Dashes(type='start', number=1, default_y=-66.84)
+            with Note(default_x=115.01, default_y=-120.0):
+                with Pitch():
+                    Step('E')
+                    Octave(3)
+                Duration(24.0)
+                Voice('1')
+                Type('whole')
+            with Note(default_x=115.01, default_y=-110.0):
+                Chord()
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(24.0)
+                Voice('1')
+                Type('whole')
+            with Direction(placement='below'):
+                with DirectionType():
+                    Dashes(type='stop', number=1)
+            with Barline(location='right'):
+                BarStyle('light-heavy')
+    with Part(id='P3'):
+        with Measure(number='1', width=412.49):
+            with Print():
+                with StaffLayout(number=1):
+                    StaffDistance(65.0)
+            with Attributes():
+                Divisions(6.0)
+                with Key():
+                    Fifths(4)
+                with Time():
+                    Beats('4')
+                    BeatType('4')
+                with Clef():
+                    Sign('F')
+                    Line(4)
+                with Transpose():
+                    Diatonic(0)
+                    Chromatic(0.0)
+                    OctaveChange(-1)
+            with Direction(placement='below'):
+                with DirectionType():
+                    with Dynamics(default_x=6.58, default_y=-41.62, relative_y=-40.0):
+                        P()
+                Sound(dynamics=54.44)
+            with Note(default_x=136.07, default_y=-270.55):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(2)
+                Duration(24.0)
+                Voice('1')
+                Type('whole')
+        with Measure(number='2', width=290.22):
+            with Note(default_x=13.8, default_y=-275.55):
+                with Pitch():
+                    Step('B')
+                    Octave(1)
+                Duration(24.0)
+                Voice('1')
+                Type('whole')
+        with Measure(number='3', width=288.7):
+            with Note(default_x=13.8, default_y=-280.55):
+                with Pitch():
+                    Step('A')
+                    Octave(1)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+            with Note(default_x=147.82, default_y=-290.55):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(1)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+        with Measure(number='4', width=1061.81):
+            with Print(new_system='yes'):
+                with StaffLayout(number=1):
+                    StaffDistance(65.0)
+            with Note(default_x=115.01, default_y=-290.0):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(1)
+                Duration(24.0)
+                Voice('1')
+                Type('whole')
+        with Measure(number='5', width=427.08):
+            with Print(new_system='yes'):
+                with StaffLayout(number=1):
+                    StaffDistance(65.0)
+            with Note(default_x=115.01, default_y=-287.53):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(2)
+                Duration(24.0)
+                Voice('1')
+                Type('whole')
+            with Note(default_x=115.01, default_y=-267.53):
+                Chord()
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(2)
+                Duration(24.0)
+                Voice('1')
+                Type('whole')
+            with Note(default_x=115.01, default_y=-252.53):
+                Chord()
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(24.0)
+                Voice('1')
+                Type('whole')
+        with Measure(number='6', width=330.77):
+            with Note(default_x=18.84, default_y=-292.53):
+                with Pitch():
+                    Step('B')
+                    Alter(1.0)
+                    Octave(1)
+                Duration(24.0)
+                Voice('1')
+                Type('whole')
+                Accidental('sharp')
+            with Note(default_x=18.84, default_y=-267.53):
+                Chord()
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(2)
+                Duration(24.0)
+                Voice('1')
+                Type('whole')
+            with Note(default_x=18.84, default_y=-257.53):
+                Chord()
+                with Pitch():
+                    Step('B')
+                    Alter(1.0)
+                    Octave(2)
+                Duration(24.0)
+                Voice('1')
+                Type('whole')
+                Accidental('sharp')
+        with Measure(number='7', width=303.97):
+            with Note(default_x=13.8, default_y=-287.53):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(2)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+            with Note(default_x=13.8, default_y=-252.53):
+                Chord()
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+            with Note(default_x=157.9, default_y=-272.53):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(2)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+        with Measure(number='8', width=1061.81):
+            with Print(new_page='yes'):
+                with StaffLayout(number=1):
+                    StaffDistance(65.0)
+            with Note(default_x=115.01, default_y=-275.0):
+                with Pitch():
+                    Step('B')
+                    Octave(1)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+            with Note(default_x=115.01, default_y=-240.0):
+                Chord()
+                with Pitch():
+                    Step('B')
+                    Octave(2)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+            with Note(default_x=587.43, default_y=-275.0):
+                with Pitch():
+                    Step('B')
+                    Octave(1)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+            with Note(default_x=587.43, default_y=-240.0):
+                Chord()
+                with Pitch():
+                    Step('B')
+                    Octave(2)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+        with Measure(number='9', width=423.03):
+            with Print(new_system='yes'):
+                with StaffLayout(number=1):
+                    StaffDistance(66.25)
+            with Note(default_x=115.01, default_y=-261.8):
+                with Pitch():
+                    Step('E')
+                    Octave(2)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+            with Note(default_x=115.01, default_y=-226.8):
+                Chord()
+                with Pitch():
+                    Step('E')
+                    Octave(3)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+            with Note(default_x=264.08, default_y=-266.8):
+                with Pitch():
+                    Step('D')
+                    Octave(2)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Accidental('natural')
+                Stem('up')
+            with Note(default_x=264.08, default_y=-231.8):
+                Chord()
+                with Pitch():
+                    Step('D')
+                    Octave(3)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Accidental('natural')
+                Stem('up')
+        with Measure(number='10', width=319.39):
+            with Direction(placement='below'):
+                with DirectionType():
+                    with Dynamics(default_x=6.58, default_y=-41.62, relative_y=-40.0):
+                        P()
+                Sound(dynamics=54.44)
+            with Note(default_x=13.8, default_y=-271.8):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(2)
+                Duration(24.0)
+                Voice('1')
+                Type('whole')
+        with Measure(number='11', width=319.39):
+            with Note(default_x=13.8, default_y=-276.8):
+                with Pitch():
+                    Step('B')
+                    Octave(1)
+                Duration(24.0)
+                Voice('1')
+                Type('whole')
+        with Measure(number='12', width=573.46):
+            with Print(new_system='yes'):
+                with StaffLayout(number=1):
+                    StaffDistance(65.0)
+            with Note(default_x=115.01, default_y=-280.0):
+                with Pitch():
+                    Step('A')
+                    Octave(1)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+            with Note(default_x=343.25, default_y=-290.0):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(1)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+        with Measure(number='13', width=488.36):
+            with Note(default_x=13.8, default_y=-290.0):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(1)
+                Duration(24.0)
+                Voice('1')
+                Type('whole')
+        with Measure(number='14', width=427.08):
+            with Print(new_system='yes'):
+                with StaffLayout(number=1):
+                    StaffDistance(65.0)
+            with Note(default_x=115.01, default_y=-284.59):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(2)
+                Duration(24.0)
+                Voice('1')
+                Type('whole')
+            with Note(default_x=115.01, default_y=-264.59):
+                Chord()
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(2)
+                Duration(24.0)
+                Voice('1')
+                Type('whole')
+            with Note(default_x=115.01, default_y=-249.59):
+                Chord()
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(24.0)
+                Voice('1')
+                Type('whole')
+        with Measure(number='15', width=330.77):
+            with Note(default_x=18.84, default_y=-289.59):
+                with Pitch():
+                    Step('B')
+                    Alter(1.0)
+                    Octave(1)
+                Duration(24.0)
+                Voice('1')
+                Type('whole')
+                Accidental('sharp')
+            with Note(default_x=18.84, default_y=-264.59):
+                Chord()
+                with Pitch():
+                    Step('G')
+                    Alter(1.0)
+                    Octave(2)
+                Duration(24.0)
+                Voice('1')
+                Type('whole')
+            with Note(default_x=18.84, default_y=-254.59):
+                Chord()
+                with Pitch():
+                    Step('B')
+                    Alter(1.0)
+                    Octave(2)
+                Duration(24.0)
+                Voice('1')
+                Type('whole')
+                Accidental('sharp')
+        with Measure(number='16', width=303.97):
+            with Note(default_x=13.8, default_y=-284.59):
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(2)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+            with Note(default_x=13.8, default_y=-249.59):
+                Chord()
+                with Pitch():
+                    Step('C')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+            with Note(default_x=157.9, default_y=-269.59):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(2)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+        with Measure(number='17', width=1061.81):
+            with Print(new_page='yes'):
+                with StaffLayout(number=1):
+                    StaffDistance(65.0)
+            with Note(default_x=115.01, default_y=-275.0):
+                with Pitch():
+                    Step('B')
+                    Octave(1)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+            with Note(default_x=115.01, default_y=-240.0):
+                Chord()
+                with Pitch():
+                    Step('B')
+                    Octave(2)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+            with Note(default_x=587.43, default_y=-275.0):
+                with Pitch():
+                    Step('B')
+                    Octave(1)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+            with Note(default_x=587.43, default_y=-240.0):
+                Chord()
+                with Pitch():
+                    Step('B')
+                    Octave(2)
+                Duration(12.0)
+                Voice('1')
+                Type('half')
+                Stem('up')
+        with Measure(number='18', width=378.2):
+            with Print(new_system='yes'):
+                with StaffLayout(number=1):
+                    StaffDistance(65.0)
+            with Direction(placement='below'):
+                with DirectionType():
+                    Words('dim.', font_family='FreeSerif', font_size='12', font_style='italic', default_y=-80.0)
+                with DirectionType():
+                    Dashes(type='start', number=1, default_y=-80.0)
+            with Note(default_x=115.01, default_y=-260.0):
+                with Pitch():
+                    Step('E')
+                    Octave(2)
+                Duration(24.0)
+                Voice('1')
+                Type('whole')
+            with Note(default_x=115.01, default_y=-225.0):
+                Chord()
+                with Pitch():
+                    Step('E')
+                    Octave(3)
+                Duration(24.0)
+                Voice('1')
+                Type('whole')
+            with Direction(placement='below'):
+                with DirectionType():
+                    Dashes(type='stop', number=1)
+            with Barline(location='right'):
+                BarStyle('light-heavy')

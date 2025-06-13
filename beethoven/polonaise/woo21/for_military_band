@@ -1,0 +1,346 @@
+with ScorePartwise(version='3.1'):
+    with Work():
+        WorkTitle('21')
+    with Identification():
+        with Encoding():
+            Software('MuseScore 3.6.2')
+            EncodingDate('2025-01-14')
+            Supports(element='accidental', type='yes')
+            Supports(element='beam', type='yes')
+            Supports(element='print', attribute='new-page', type='yes', value='yes')
+            Supports(element='print', attribute='new-system', type='yes', value='yes')
+            Supports(element='stem', type='yes')
+    with Defaults():
+        with Scaling():
+            Millimeters(7.05556)
+            Tenths(40.0)
+        with PageLayout():
+            PageHeight(1584.0)
+            PageWidth(1224.0)
+            with PageMargins(type='even'):
+                LeftMargin(56.6929)
+                RightMargin(56.6929)
+                TopMargin(56.6929)
+                BottomMargin(113.386)
+            with PageMargins(type='odd'):
+                LeftMargin(56.6929)
+                RightMargin(56.6929)
+                TopMargin(56.6929)
+                BottomMargin(113.386)
+        WordFont(font_family='FreeSerif', font_size='10')
+        LyricFont(font_family='FreeSerif', font_size='11')
+    with Credit(page=1):
+        CreditType('title')
+        CreditWords('21', default_x=612.0, default_y=1527.31, justify='center', valign='top', font_size='24')
+    with PartList():
+        with ScorePart(id='P1'):
+            PartName('Piano')
+            PartAbbreviation('Pno.')
+            with ScoreInstrument(id='P1-I1'):
+                InstrumentName('Piano')
+            MidiDevice(None, id='P1-I1', port=1)
+            with MidiInstrument(id='P1-I1'):
+                MidiChannel(1)
+                MidiProgram(1)
+                Volume(78.7402)
+                Pan(0.0)
+    with Part(id='P1'):
+        with Measure(number='1', width=253.24):
+            with Print():
+                with SystemLayout():
+                    with SystemMargins():
+                        LeftMargin(0.0)
+                        RightMargin(-0.0)
+                    TopSystemDistance(170.0)
+            with Attributes():
+                Divisions(4.0)
+                with Key():
+                    Fifths(-3)
+                with Time(symbol='common'):
+                    Beats('4')
+                    BeatType('4')
+                with Clef():
+                    Sign('F')
+                    Line(4)
+            with Direction(placement='above'):
+                with DirectionType():
+                    with Metronome(parentheses='no', default_x=-41.11, relative_y=20.0):
+                        BeatUnit('quarter')
+                        PerMinute('108')
+                Sound(tempo=108.0)
+            with Note(default_x=124.88, default_y=-50.0):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(2)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+            with Note(default_x=150.16, default_y=-40.0):
+                with Pitch():
+                    Step('G')
+                    Octave(2)
+                Duration(4.0)
+                Voice('1')
+                Type('quarter')
+                Stem('up')
+            with Note(default_x=173.06, default_y=-30.0):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(2)
+                Duration(4.0)
+                Voice('1')
+                Type('quarter')
+                Stem('up')
+            with Note(default_x=195.97, default_y=-15.0):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(4.0)
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+            with Note(default_x=218.87, default_y=-25.0):
+                with Pitch():
+                    Step('C')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+        with Measure(number='2', width=184.55):
+            with Note(default_x=10.0, default_y=-30.0):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(2)
+                Duration(8.0)
+                Tie(type='start')
+                Voice('1')
+                Type('half')
+                Stem('up')
+                with Notations():
+                    Tied(type='start')
+            with Note(default_x=54.87, default_y=-30.0):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(2)
+                Duration(2.0)
+                Tie(type='stop')
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Beam('begin', number=1)
+                with Notations():
+                    Tied(type='stop')
+            with Note(default_x=80.3, default_y=-15.0):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                Beam('continue', number=1)
+                Beam('begin', number=2)
+            with Note(default_x=96.2, default_y=-5.0):
+                with Pitch():
+                    Step('G')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                Beam('end', number=1)
+                Beam('end', number=2)
+            with Note(default_x=112.1, default_y=-10.0):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                Beam('begin', number=1)
+                Beam('begin', number=2)
+            with Note(default_x=127.99, default_y=-15.0):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                Beam('continue', number=1)
+                Beam('continue', number=2)
+            with Note(default_x=143.89, default_y=-20.0):
+                with Pitch():
+                    Step('D')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                Beam('continue', number=1)
+                Beam('continue', number=2)
+            with Note(default_x=159.78, default_y=-25.0):
+                with Pitch():
+                    Step('C')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                Beam('end', number=1)
+                Beam('end', number=2)
+        with Measure(number='3', width=171.5):
+            with Note(default_x=13.8, default_y=-50.0):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(2)
+                Duration(4.0)
+                Tie(type='start')
+                Voice('1')
+                Type('quarter')
+                Stem('up')
+                with Notations():
+                    Tied(type='start')
+            with Note(default_x=43.68, default_y=-50.0):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(2)
+                Duration(1.0)
+                Tie(type='stop')
+                Voice('1')
+                Type('16th')
+                Stem('up')
+                Beam('begin', number=1)
+                Beam('begin', number=2)
+                with Notations():
+                    Tied(type='stop')
+            with Note(default_x=63.14, default_y=-45.0):
+                with Pitch():
+                    Step('F')
+                    Octave(2)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('up')
+                Beam('continue', number=1)
+                Beam('continue', number=2)
+            with Note(default_x=78.81, default_y=-40.0):
+                with Pitch():
+                    Step('G')
+                    Octave(2)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('up')
+                Beam('continue', number=1)
+                Beam('continue', number=2)
+            with Note(default_x=94.48, default_y=-50.0):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(2)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('up')
+                Beam('end', number=1)
+                Beam('end', number=2)
+            with Note(default_x=110.14, default_y=-30.0):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(2)
+                Duration(4.0)
+                Voice('1')
+                Type('quarter')
+                Stem('up')
+            with Note():
+                Rest()
+                Duration(4.0)
+                Voice('1')
+                Type('quarter')
+        with Measure(number='4', width=55.7):
+            with Note():
+                Rest(measure='yes')
+                Duration(16.0)
+                Voice('1')
+        with Measure(number='5', width=55.7):
+            with Note():
+                Rest(measure='yes')
+                Duration(16.0)
+                Voice('1')
+        with Measure(number='6', width=55.7):
+            with Note():
+                Rest(measure='yes')
+                Duration(16.0)
+                Voice('1')
+        with Measure(number='7', width=55.7):
+            with Note():
+                Rest(measure='yes')
+                Duration(16.0)
+                Voice('1')
+        with Measure(number='8', width=55.7):
+            with Note():
+                Rest(measure='yes')
+                Duration(16.0)
+                Voice('1')
+        with Measure(number='9', width=55.7):
+            with Note():
+                Rest(measure='yes')
+                Duration(16.0)
+                Voice('1')
+        with Measure(number='10', width=55.7):
+            with Note():
+                Rest(measure='yes')
+                Duration(16.0)
+                Voice('1')
+        with Measure(number='11', width=55.7):
+            with Note():
+                Rest(measure='yes')
+                Duration(16.0)
+                Voice('1')
+        with Measure(number='12', width=55.7):
+            with Note():
+                Rest(measure='yes')
+                Duration(16.0)
+                Voice('1')
+        with Measure(number='13', width=204.22):
+            with Print(new_system='yes'):
+                with SystemLayout():
+                    with SystemMargins():
+                        LeftMargin(0.0)
+                        RightMargin(519.86)
+                    SystemDistance(150.0)
+            with Note():
+                Rest(measure='yes')
+                Duration(16.0)
+                Voice('1')
+        with Measure(number='14', width=128.84):
+            with Note():
+                Rest(measure='yes')
+                Duration(16.0)
+                Voice('1')
+        with Measure(number='15', width=128.84):
+            with Note():
+                Rest(measure='yes')
+                Duration(16.0)
+                Voice('1')
+        with Measure(number='16', width=128.84):
+            with Note():
+                Rest(measure='yes')
+                Duration(16.0)
+                Voice('1')
+            with Barline(location='right'):
+                BarStyle('light-heavy')

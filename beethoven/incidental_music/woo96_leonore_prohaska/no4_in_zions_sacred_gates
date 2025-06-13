@@ -1,0 +1,2326 @@
+with ScorePartwise(version='3.1'):
+    MovementTitle('Lyman, 12.12.88')
+    with Identification():
+        Creator('Arranged from Beethoven', type='composer')
+        Rights('Public Domain\nCourtesy of the Cyber Hymnal™')
+        with Encoding():
+            Software('MuseScore 3.6.2')
+            EncodingDate('2025-01-14')
+            Supports(element='accidental', type='yes')
+            Supports(element='beam', type='yes')
+            Supports(element='print', attribute='new-page', type='yes', value='yes')
+            Supports(element='print', attribute='new-system', type='yes', value='yes')
+            Supports(element='stem', type='yes')
+    with Defaults():
+        with Scaling():
+            Millimeters(7.05556)
+            Tenths(40.0)
+        with PageLayout():
+            PageHeight(1683.36)
+            PageWidth(1190.88)
+            with PageMargins(type='even'):
+                LeftMargin(56.6929)
+                RightMargin(56.6929)
+                TopMargin(56.6929)
+                BottomMargin(113.386)
+            with PageMargins(type='odd'):
+                LeftMargin(56.6929)
+                RightMargin(56.6929)
+                TopMargin(56.6929)
+                BottomMargin(113.386)
+        WordFont(font_family='FreeSerif', font_size='10')
+        LyricFont(font_family='FreeSerif', font_size='11')
+    with Credit(page=1):
+        CreditType('title')
+        CreditWords('Lyman, 12.12.88', default_x=595.44, default_y=1626.67, justify='center', valign='top', font_size='24')
+    with Credit(page=1):
+        CreditType('composer')
+        CreditWords('Arranged from Beethoven', default_x=1134.19, default_y=1526.67, justify='right', valign='bottom', font_size='12')
+    with Credit(page=1):
+        CreditType('rights')
+        CreditWords('Public Domain\nCourtesy of the Cyber Hymnal™', default_x=595.44, default_y=113.386, justify='center', valign='bottom', font_size='8')
+    with PartList():
+        with ScorePart(id='P1'):
+            PartName(None)
+            with ScoreInstrument(id='P1-I1'):
+                InstrumentName(None)
+            MidiDevice(None, id='P1-I1', port=1)
+            with MidiInstrument(id='P1-I1'):
+                MidiChannel(1)
+                MidiProgram(1)
+                Volume(78.7402)
+                Pan(0.0)
+        with ScorePart(id='P2'):
+            PartName(None)
+            with ScoreInstrument(id='P2-I1'):
+                InstrumentName(None)
+            MidiDevice(None, id='P2-I1', port=1)
+            with MidiInstrument(id='P2-I1'):
+                MidiChannel(2)
+                MidiProgram(1)
+                Volume(78.7402)
+                Pan(0.0)
+    with Part(id='P1'):
+        with Measure(number='1', width=147.6):
+            with Print():
+                with SystemLayout():
+                    with SystemMargins():
+                        LeftMargin(0.0)
+                        RightMargin(0.0)
+                    TopSystemDistance(170.0)
+            with Attributes():
+                Divisions(2.0)
+                with Key():
+                    Fifths(-2)
+                    Mode('major')
+                with Time():
+                    Beats('6')
+                    BeatType('8')
+                with Clef():
+                    Sign('G')
+                    Line(2)
+            with Direction(placement='above'):
+                with DirectionType():
+                    with Metronome(parentheses='no', default_x=-34.94, relative_y=20.0):
+                        BeatUnit('quarter')
+                        PerMinute('113')
+                Sound(tempo=113.0)
+            with Note(default_x=110.32, default_y=-45.0):
+                with Pitch():
+                    Step('D')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+            with Note(default_x=110.32, default_y=-35.0):
+                Chord()
+                with Pitch():
+                    Step('F')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+        with Measure(number='2', width=133.85):
+            with Note(default_x=10.0, default_y=-45.0):
+                with Pitch():
+                    Step('D')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('quarter')
+                Stem('up')
+            with Note(default_x=10.0, default_y=-35.0):
+                Chord()
+                with Pitch():
+                    Step('F')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('quarter')
+                Stem('up')
+            with Note(default_x=42.81, default_y=-45.0):
+                with Pitch():
+                    Step('D')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+            with Note(default_x=42.81, default_y=-35.0):
+                Chord()
+                with Pitch():
+                    Step('F')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+            with Note(default_x=68.08, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Slur(type='start', placement='above', number=1)
+            with Note(default_x=88.59, default_y=-30.0):
+                with Pitch():
+                    Step('G')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+                Beam('continue', number=1)
+                with Notations():
+                    Slur(type='stop', number=1)
+            with Note(default_x=109.09, default_y=-45.0):
+                with Pitch():
+                    Step('D')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+                Beam('end', number=1)
+            with Note(default_x=109.09, default_y=-35.0):
+                Chord()
+                with Pitch():
+                    Step('F')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+            with Backup():
+                Duration(6.0)
+            with Forward():
+                Duration(3.0)
+            with Note(default_x=68.08, default_y=-45.0):
+                with Pitch():
+                    Step('D')
+                    Octave(4)
+                Duration(2.0)
+                Voice('2')
+                Type('quarter')
+                Stem('down')
+            with Forward():
+                Duration(1.0)
+        with Measure(number='3', width=122.19):
+            with Note(default_x=10.0, default_y=-45.0):
+                with Pitch():
+                    Step('D')
+                    Octave(4)
+                Duration(3.0)
+                Tie(type='start')
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('up')
+                with Notations():
+                    Tied(type='start')
+            with Note(default_x=10.0, default_y=-20.0):
+                Chord()
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(4)
+                Duration(3.0)
+                Tie(type='start')
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('up')
+                with Notations():
+                    Tied(type='start')
+            with Note(default_x=52.75, default_y=-45.0):
+                with Pitch():
+                    Step('D')
+                    Octave(4)
+                Duration(2.0)
+                Tie(type='stop')
+                Voice('1')
+                Type('quarter')
+                Stem('up')
+                with Notations():
+                    Tied(type='stop')
+            with Note(default_x=52.75, default_y=-20.0):
+                Chord()
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(4)
+                Duration(2.0)
+                Tie(type='stop')
+                Voice('1')
+                Type('quarter')
+                Stem('up')
+                with Notations():
+                    Tied(type='stop')
+            with Note(default_x=87.82, default_y=-45.0):
+                with Pitch():
+                    Step('D')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+            with Note(default_x=87.82, default_y=-35.0):
+                Chord()
+                with Pitch():
+                    Step('F')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+        with Measure(number='4', width=191.03):
+            with Note(default_x=10.0, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('quarter')
+                Stem('up')
+            with Note(default_x=21.87, default_y=-35.0):
+                Chord()
+                with Pitch():
+                    Step('F')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('quarter')
+                Stem('up')
+            with Note(default_x=56.67, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+            with Note(default_x=68.53, default_y=-35.0):
+                Chord()
+                with Pitch():
+                    Step('F')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+            with Note(default_x=85.84, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Slur(type='start', placement='above', number=1)
+            with Note(default_x=125.23, default_y=-30.0):
+                with Pitch():
+                    Step('G')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+                Beam('continue', number=1)
+                with Notations():
+                    Slur(type='stop', number=1)
+            with Note(default_x=154.4, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+                Beam('end', number=1)
+            with Note(default_x=166.27, default_y=-35.0):
+                Chord()
+                with Pitch():
+                    Step('F')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+            with Backup():
+                Duration(6.0)
+            with Forward():
+                Duration(3.0)
+            with Note(default_x=97.7, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('2')
+                Type('quarter')
+                Stem('down')
+            with Forward():
+                Duration(1.0)
+        with Measure(number='5', width=122.19):
+            with Note(default_x=10.0, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Octave(4)
+                Duration(3.0)
+                Tie(type='start')
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('up')
+                with Notations():
+                    Tied(type='start')
+            with Note(default_x=10.0, default_y=-15.0):
+                Chord()
+                with Pitch():
+                    Step('C')
+                    Octave(5)
+                Duration(3.0)
+                Tie(type='start')
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('up')
+                with Notations():
+                    Tied(type='start')
+            with Note(default_x=52.75, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Octave(4)
+                Duration(2.0)
+                Tie(type='stop')
+                Voice('1')
+                Type('quarter')
+                Stem('up')
+                with Notations():
+                    Tied(type='stop')
+            with Note(default_x=52.75, default_y=-15.0):
+                Chord()
+                with Pitch():
+                    Step('C')
+                    Octave(5)
+                Duration(2.0)
+                Tie(type='stop')
+                Voice('1')
+                Type('quarter')
+                Stem('up')
+                with Notations():
+                    Tied(type='stop')
+            with Note(default_x=87.82, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+            with Note(default_x=87.82, default_y=-15.0):
+                Chord()
+                with Pitch():
+                    Step('C')
+                    Octave(5)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+        with Measure(number='6', width=133.85):
+            with Note(default_x=10.0, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('quarter')
+                Stem('up')
+            with Note(default_x=10.0, default_y=-10.0):
+                Chord()
+                with Pitch():
+                    Step('D')
+                    Octave(5)
+                Duration(2.0)
+                Voice('1')
+                Type('quarter')
+                Stem('up')
+            with Note(default_x=42.81, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+            with Note(default_x=42.81, default_y=-10.0):
+                Chord()
+                with Pitch():
+                    Step('D')
+                    Octave(5)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+            with Note(default_x=68.08, default_y=-15.0):
+                with Pitch():
+                    Step('C')
+                    Octave(5)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Slur(type='start', placement='above', number=1)
+            with Note(default_x=88.59, default_y=-20.0):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+                Beam('continue', number=1)
+                with Notations():
+                    Slur(type='stop', number=1)
+            with Note(default_x=109.09, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+                Beam('end', number=1)
+            with Note(default_x=109.09, default_y=-30.0):
+                Chord()
+                with Pitch():
+                    Step('G')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+            with Backup():
+                Duration(6.0)
+            with Forward():
+                Duration(3.0)
+            with Note(default_x=68.08, default_y=-30.0):
+                with Pitch():
+                    Step('G')
+                    Octave(4)
+                Duration(2.0)
+                Voice('2')
+                Type('quarter')
+                Stem('down')
+            with Forward():
+                Duration(1.0)
+        with Measure(number='7', width=87.23):
+            with Note(default_x=10.0, default_y=-45.0):
+                with Pitch():
+                    Step('D')
+                    Octave(4)
+                Duration(3.0)
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('up')
+            with Note(default_x=10.0, default_y=-35.0):
+                Chord()
+                with Pitch():
+                    Step('F')
+                    Octave(4)
+                Duration(3.0)
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('up')
+            with Note(default_x=47.81, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Octave(4)
+                Duration(3.0)
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('up')
+            with Backup():
+                Duration(6.0)
+            with Forward():
+                Duration(3.0)
+            with Note(default_x=47.81, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Octave(4)
+                Duration(3.0)
+                Voice('2')
+                Type('quarter')
+                Dot()
+                Stem('down')
+        with Measure(number='8', width=139.54):
+            with Note(default_x=10.0, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('quarter')
+                Stem('up')
+            with Note(default_x=44.95, default_y=-50.0):
+                with Pitch():
+                    Step('C')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+            with Note(default_x=44.95, default_y=-35.0):
+                Chord()
+                with Pitch():
+                    Step('F')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+            with Note(default_x=70.22, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('quarter')
+                Stem('up')
+            with Note(default_x=70.22, default_y=-25.0):
+                Chord()
+                with Pitch():
+                    Step('A')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('quarter')
+                Stem('up')
+            with Note(default_x=105.17, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Accidental('natural')
+                Stem('up')
+            with Note(default_x=105.17, default_y=-30.0):
+                Chord()
+                with Pitch():
+                    Step('G')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+            with Backup():
+                Duration(6.0)
+            with Note(default_x=10.0, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Octave(4)
+                Duration(2.0)
+                Voice('2')
+                Type('quarter')
+                Stem('down')
+            with Forward():
+                Duration(4.0)
+        with Measure(number='9', width=192.31):
+            with Print(new_system='yes'):
+                with SystemLayout():
+                    with SystemMargins():
+                        LeftMargin(0.0)
+                        RightMargin(-0.0)
+                    SystemDistance(150.0)
+            with Note(default_x=90.38, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Octave(4)
+                Duration(3.0)
+                Tie(type='start')
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('up')
+                with Notations():
+                    Tied(type='start')
+            with Note(default_x=127.49, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Octave(4)
+                Duration(2.0)
+                Tie(type='stop')
+                Voice('1')
+                Type('quarter')
+                Stem('up')
+                with Notations():
+                    Tied(type='stop')
+            with Note(default_x=157.93, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+            with Backup():
+                Duration(6.0)
+            with Note(default_x=90.38, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Octave(4)
+                Duration(3.0)
+                Tie(type='start')
+                Voice('2')
+                Type('quarter')
+                Dot()
+                Stem('down')
+                with Notations():
+                    Tied(type='start')
+            with Note(default_x=127.49, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Octave(4)
+                Duration(2.0)
+                Tie(type='stop')
+                Voice('2')
+                Type('quarter')
+                Stem('down')
+                with Notations():
+                    Tied(type='stop')
+            with Forward():
+                Duration(1.0)
+        with Measure(number='10', width=181.55):
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('quarter')
+            with Note(default_x=50.41, default_y=-15.0):
+                with Pitch():
+                    Step('C')
+                    Octave(5)
+                Duration(3.0)
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('up')
+            with Note(print_object='no'):
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('quarter')
+            with Backup():
+                Duration(7.0)
+            with Note(default_x=10.94, default_y=-15.0):
+                with Pitch():
+                    Step('C')
+                    Octave(5)
+                Duration(3.0)
+                Voice('2')
+                Type('quarter')
+                Dot()
+                Stem('down')
+            with Note(default_x=75.08, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Octave(4)
+                Duration(1.0)
+                Voice('2')
+                Type('eighth')
+                Stem('down')
+            with Note(default_x=99.75, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Octave(4)
+                Duration(1.0)
+                Voice('2')
+                Type('eighth')
+                Stem('down')
+                Beam('begin', number=1)
+                with Notations():
+                    Slur(type='start', placement='below', number=1)
+            with Note(default_x=126.42, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(1.0)
+                Voice('2')
+                Type('eighth')
+                Accidental('natural')
+                Stem('down')
+                Beam('continue', number=1)
+            with Note(default_x=155.28, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(4)
+                Duration(1.0)
+                Voice('2')
+                Type('eighth')
+                Accidental('flat')
+                Stem('down')
+                Beam('end', number=1)
+                with Notations():
+                    Slur(type='stop', number=1)
+        with Measure(number='11', width=111.79):
+            with Note(default_x=10.0, default_y=-45.0):
+                with Pitch():
+                    Step('D')
+                    Octave(4)
+                Duration(3.0)
+                Tie(type='start')
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('up')
+                with Notations():
+                    Tied(type='start')
+                    Slur(type='start', placement='above', number=1)
+            with Note(default_x=10.0, default_y=-10.0):
+                Chord()
+                with Pitch():
+                    Step('D')
+                    Octave(5)
+                Duration(3.0)
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('up')
+            with Note(default_x=47.04, default_y=-45.0):
+                with Pitch():
+                    Step('D')
+                    Octave(4)
+                Duration(2.0)
+                Tie(type='stop')
+                Voice('1')
+                Type('quarter')
+                Stem('up')
+                with Notations():
+                    Tied(type='stop')
+                    Slur(type='stop', number=1)
+            with Note(default_x=47.04, default_y=-20.0):
+                Chord()
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('quarter')
+                Stem('up')
+            with Note(default_x=77.42, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+        with Measure(number='12', width=181.55):
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('quarter')
+            with Note(default_x=50.41, default_y=-15.0):
+                with Pitch():
+                    Step('C')
+                    Octave(5)
+                Duration(3.0)
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('up')
+            with Note(print_object='no'):
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('quarter')
+            with Backup():
+                Duration(7.0)
+            with Note(default_x=10.94, default_y=-15.0):
+                with Pitch():
+                    Step('C')
+                    Octave(5)
+                Duration(3.0)
+                Voice('2')
+                Type('quarter')
+                Dot()
+                Stem('down')
+                with Notations():
+                    Slur(type='start', placement='below', number=1)
+            with Note(default_x=75.08, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Octave(4)
+                Duration(1.0)
+                Voice('2')
+                Type('eighth')
+                Stem('down')
+                with Notations():
+                    Slur(type='stop', number=1)
+            with Note(default_x=99.75, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Octave(4)
+                Duration(1.0)
+                Voice('2')
+                Type('eighth')
+                Stem('down')
+                Beam('begin', number=1)
+                with Notations():
+                    Slur(type='start', placement='below', number=1)
+            with Note(default_x=126.42, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Octave(4)
+                Duration(1.0)
+                Voice('2')
+                Type('eighth')
+                Accidental('natural')
+                Stem('down')
+                Beam('continue', number=1)
+            with Note(default_x=155.28, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(4)
+                Duration(1.0)
+                Voice('2')
+                Type('eighth')
+                Accidental('flat')
+                Stem('down')
+                Beam('end', number=1)
+                with Notations():
+                    Slur(type='stop', number=1)
+        with Measure(number='13', width=100.74):
+            with Note(default_x=10.0, default_y=-45.0):
+                with Pitch():
+                    Step('D')
+                    Octave(4)
+                Duration(3.0)
+                Tie(type='start')
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('up')
+                with Notations():
+                    Tied(type='start')
+            with Note(default_x=10.0, default_y=-10.0):
+                Chord()
+                with Pitch():
+                    Step('D')
+                    Octave(5)
+                Duration(3.0)
+                Tie(type='start')
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('up')
+                with Notations():
+                    Tied(type='start')
+            with Note(default_x=46.86, default_y=-45.0):
+                with Pitch():
+                    Step('D')
+                    Octave(4)
+                Duration(2.0)
+                Tie(type='stop')
+                Voice('1')
+                Type('quarter')
+                Stem('up')
+                with Notations():
+                    Tied(type='stop')
+            with Note(default_x=46.86, default_y=-10.0):
+                Chord()
+                with Pitch():
+                    Step('D')
+                    Octave(5)
+                Duration(2.0)
+                Tie(type='stop')
+                Voice('1')
+                Type('quarter')
+                Stem('up')
+                with Notations():
+                    Tied(type='stop')
+            with Note(default_x=75.98, default_y=0.0):
+                with Pitch():
+                    Step('F')
+                    Octave(5)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+        with Measure(number='14', width=168.63):
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('quarter')
+            with Note(default_x=46.65, default_y=0.0):
+                with Pitch():
+                    Step('F')
+                    Octave(5)
+                Duration(3.0)
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('up')
+            with Note(print_object='no'):
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('quarter')
+            with Backup():
+                Duration(7.0)
+            with Note(default_x=10.94, default_y=0.0):
+                with Pitch():
+                    Step('F')
+                    Octave(5)
+                Duration(3.0)
+                Voice('2')
+                Type('quarter')
+                Dot()
+                Stem('down')
+                with Notations():
+                    Slur(type='start', placement='below', number=1)
+            with Note(default_x=70.35, default_y=-45.0):
+                with Pitch():
+                    Step('D')
+                    Octave(4)
+                Duration(1.0)
+                Voice('2')
+                Type('eighth')
+                Stem('down')
+                with Notations():
+                    Slur(type='stop', number=1)
+            with Note(default_x=92.67, default_y=-45.0):
+                with Pitch():
+                    Step('D')
+                    Octave(4)
+                Duration(1.0)
+                Voice('2')
+                Type('eighth')
+                Stem('down')
+                Beam('begin', number=1)
+                with Notations():
+                    Slur(type='start', placement='below', number=1)
+            with Note(default_x=121.54, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(4)
+                Duration(1.0)
+                Voice('2')
+                Type('eighth')
+                Stem('down')
+                Beam('continue', number=1)
+            with Note(default_x=143.86, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Octave(4)
+                Duration(1.0)
+                Voice('2')
+                Type('eighth')
+                Stem('down')
+                Beam('end', number=1)
+                with Notations():
+                    Slur(type='stop', number=1)
+        with Measure(number='15', width=140.91):
+            with Note(default_x=10.0, default_y=-30.0):
+                with Pitch():
+                    Step('G')
+                    Octave(4)
+                Duration(3.0)
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('down')
+            with Note(default_x=10.0, default_y=-5.0):
+                Chord()
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(5)
+                Duration(3.0)
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('down')
+            with Note(default_x=70.9, default_y=-30.0):
+                with Pitch():
+                    Step('G')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('quarter')
+                Stem('up')
+            with Note(default_x=70.9, default_y=-20.0):
+                Chord()
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('quarter')
+                Stem('up')
+            with Note(default_x=106.53, default_y=-30.0):
+                with Pitch():
+                    Step('G')
+                    Alter(-1.0)
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Accidental('flat')
+                Stem('up')
+            with Note(default_x=106.53, default_y=-15.0):
+                Chord()
+                with Pitch():
+                    Step('C')
+                    Octave(5)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+        with Measure(number='16', width=332.7):
+            with Print(new_system='yes'):
+                with SystemLayout():
+                    with SystemMargins():
+                        LeftMargin(0.0)
+                        RightMargin(532.9)
+                    SystemDistance(150.0)
+            with Note(default_x=90.38, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Octave(4)
+                Duration(3.0)
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('up')
+            with Note(default_x=90.38, default_y=-10.0):
+                Chord()
+                with Pitch():
+                    Step('D')
+                    Octave(5)
+                Duration(3.0)
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('up')
+            with Note(default_x=193.57, default_y=-10.0):
+                with Pitch():
+                    Step('D')
+                    Octave(5)
+                Duration(2.0)
+                Voice('1')
+                Type('quarter')
+                Stem('up')
+                with Notations():
+                    Slur(type='start', placement='above', number=1)
+            with Note(default_x=278.2, default_y=-15.0):
+                with Pitch():
+                    Step('C')
+                    Octave(5)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+                with Notations():
+                    Slur(type='stop', number=1)
+            with Backup():
+                Duration(6.0)
+            with Forward():
+                Duration(3.0)
+            with Note(default_x=193.57, default_y=-40.0):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(4)
+                Duration(3.0)
+                Voice('2')
+                Type('quarter')
+                Dot()
+                Stem('down')
+        with Measure(number='17', width=211.9):
+            with Note(default_x=10.0, default_y=-45.0):
+                with Pitch():
+                    Step('D')
+                    Octave(4)
+                Duration(3.0)
+                Tie(type='start')
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('up')
+                with Notations():
+                    Tied(type='start')
+            with Note(default_x=10.0, default_y=-20.0):
+                Chord()
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(4)
+                Duration(3.0)
+                Tie(type='start')
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('up')
+                with Notations():
+                    Tied(type='start')
+            with Note(default_x=119.93, default_y=-45.0):
+                with Pitch():
+                    Step('D')
+                    Octave(4)
+                Duration(2.0)
+                Tie(type='stop')
+                Voice('1')
+                Type('quarter')
+                Stem('up')
+                with Notations():
+                    Tied(type='stop')
+            with Note(default_x=119.93, default_y=-20.0):
+                Chord()
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(4)
+                Duration(2.0)
+                Tie(type='stop')
+                Voice('1')
+                Type('quarter')
+                Stem('up')
+                with Notations():
+                    Tied(type='stop')
+            with Barline(location='right'):
+                BarStyle('light-heavy')
+    with Part(id='P2'):
+        with Measure(number='1', width=147.6):
+            with Print():
+                with StaffLayout(number=1):
+                    StaffDistance(73.02)
+            with Attributes():
+                Divisions(2.0)
+                with Key():
+                    Fifths(-2)
+                    Mode('major')
+                with Time():
+                    Beats('6')
+                    BeatType('8')
+                with Clef():
+                    Sign('F')
+                    Line(4)
+            with Note(default_x=110.32, default_y=-143.02):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(2)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+            with Note(default_x=110.32, default_y=-108.02):
+                Chord()
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+        with Measure(number='2', width=133.85):
+            with Note(default_x=10.0, default_y=-143.02):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(2)
+                Duration(2.0)
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+            with Note(default_x=10.0, default_y=-108.02):
+                Chord()
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+            with Note(default_x=42.81, default_y=-143.02):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(2)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+            with Note(default_x=42.81, default_y=-108.02):
+                Chord()
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+            with Note(default_x=68.08, default_y=-143.02):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(2)
+                Duration(2.0)
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+            with Note(default_x=68.08, default_y=-108.02):
+                Chord()
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+            with Note(default_x=109.09, default_y=-143.02):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(2)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+            with Note(default_x=109.09, default_y=-108.02):
+                Chord()
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+        with Measure(number='3', width=122.19):
+            with Note(default_x=10.0, default_y=-143.02):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(2)
+                Duration(3.0)
+                Tie(type='start')
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('down')
+                with Notations():
+                    Tied(type='start')
+            with Note(default_x=10.0, default_y=-123.02):
+                Chord()
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(3.0)
+                Tie(type='start')
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('down')
+                with Notations():
+                    Tied(type='start')
+            with Note(default_x=52.75, default_y=-143.02):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(2)
+                Duration(2.0)
+                Tie(type='stop')
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+                with Notations():
+                    Tied(type='stop')
+            with Note(default_x=52.75, default_y=-123.02):
+                Chord()
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(2.0)
+                Tie(type='stop')
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+                with Notations():
+                    Tied(type='stop')
+            with Note(default_x=87.82, default_y=-143.02):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(2)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+            with Note(default_x=87.82, default_y=-108.02):
+                Chord()
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+        with Measure(number='4', width=191.03):
+            with Note(default_x=10.0, default_y=-123.02):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+            with Note(default_x=10.0, default_y=-113.02):
+                Chord()
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+            with Note(default_x=56.67, default_y=-123.02):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+            with Note(default_x=56.67, default_y=-113.02):
+                Chord()
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+            with Note(default_x=85.84, default_y=-113.02):
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+                Beam('begin', number=1)
+                with Notations():
+                    Slur(type='start', placement='above', number=1)
+            with Note(default_x=125.23, default_y=-108.02):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+                Beam('continue', number=1)
+                with Notations():
+                    Slur(type='stop', number=1)
+            with Note(default_x=154.4, default_y=-123.02):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+                Beam('end', number=1)
+            with Note(default_x=154.4, default_y=-113.02):
+                Chord()
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+            with Backup():
+                Duration(6.0)
+            with Forward():
+                Duration(3.0)
+            with Note(default_x=85.84, default_y=-123.02):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(2.0)
+                Voice('2')
+                Type('quarter')
+                Stem('down')
+            with Forward():
+                Duration(1.0)
+        with Measure(number='5', width=122.19):
+            with Note(default_x=10.0, default_y=-123.02):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(3.0)
+                Tie(type='start')
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('down')
+                with Notations():
+                    Tied(type='start')
+            with Note(default_x=10.0, default_y=-113.02):
+                Chord()
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(3.0)
+                Tie(type='start')
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('down')
+                with Notations():
+                    Tied(type='start')
+            with Note(default_x=52.75, default_y=-123.02):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(2.0)
+                Tie(type='stop')
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+                with Notations():
+                    Tied(type='stop')
+            with Note(default_x=52.75, default_y=-113.02):
+                Chord()
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(2.0)
+                Tie(type='stop')
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+                with Notations():
+                    Tied(type='stop')
+            with Note(default_x=87.82, default_y=-123.02):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+            with Note(default_x=87.82, default_y=-113.02):
+                Chord()
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+        with Measure(number='6', width=133.85):
+            with Note(default_x=10.0, default_y=-108.02):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('quarter')
+                Stem('up')
+            with Note(default_x=42.81, default_y=-143.02):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(2)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+            with Note(default_x=42.81, default_y=-108.02):
+                Chord()
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+            with Note(default_x=68.08, default_y=-128.02):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+            with Note(default_x=68.08, default_y=-108.02):
+                Chord()
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+            with Note(default_x=109.09, default_y=-128.02):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+            with Note(default_x=109.09, default_y=-108.02):
+                Chord()
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+            with Backup():
+                Duration(6.0)
+            with Note(default_x=10.0, default_y=-108.02):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Voice('2')
+                Type('quarter')
+                Stem('down')
+            with Forward():
+                Duration(4.0)
+        with Measure(number='7', width=87.23):
+            with Note(default_x=10.0, default_y=-143.02):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(2)
+                Duration(3.0)
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('down')
+            with Note(default_x=10.0, default_y=-108.02):
+                Chord()
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(3.0)
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('down')
+            with Note(default_x=47.81, default_y=-133.02):
+                with Pitch():
+                    Step('D')
+                    Octave(3)
+                Duration(3.0)
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('down')
+            with Note(default_x=47.81, default_y=-108.02):
+                Chord()
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(3.0)
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('down')
+        with Measure(number='8', width=139.54):
+            with Note(default_x=10.0, default_y=-138.02):
+                with Pitch():
+                    Step('C')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+            with Note(default_x=10.0, default_y=-113.02):
+                Chord()
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+            with Note(default_x=44.95, default_y=-138.02):
+                with Pitch():
+                    Step('C')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+            with Note(default_x=44.95, default_y=-113.02):
+                Chord()
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+            with Note(default_x=70.22, default_y=-138.02):
+                with Pitch():
+                    Step('C')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+            with Note(default_x=70.22, default_y=-103.02):
+                Chord()
+                with Pitch():
+                    Step('C')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+            with Note(default_x=105.17, default_y=-138.02):
+                with Pitch():
+                    Step('C')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+            with Note(default_x=105.17, default_y=-108.02):
+                Chord()
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+        with Measure(number='9', width=192.31):
+            with Print(new_system='yes'):
+                with StaffLayout(number=1):
+                    StaffDistance(78.15)
+            with Note(default_x=90.38, default_y=-128.15):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(3.0)
+                Tie(type='start')
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('down')
+                with Notations():
+                    Tied(type='start')
+            with Note(default_x=90.38, default_y=-118.15):
+                Chord()
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(3.0)
+                Tie(type='start')
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('down')
+                with Notations():
+                    Tied(type='start')
+            with Note(default_x=127.49, default_y=-128.15):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(2.0)
+                Tie(type='stop')
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+                with Notations():
+                    Tied(type='stop')
+            with Note(default_x=127.49, default_y=-118.15):
+                Chord()
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(2.0)
+                Tie(type='stop')
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+                with Notations():
+                    Tied(type='stop')
+            with Note():
+                Rest()
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+        with Measure(number='10', width=181.55):
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('quarter')
+            with Note(default_x=50.41, default_y=-128.15):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+            with Note(default_x=50.41, default_y=-118.15):
+                Chord()
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+            with Note(default_x=75.08, default_y=-128.15):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Beam('begin', number=1)
+                with Notations():
+                    Slur(type='start', placement='above', number=1)
+            with Note(default_x=75.08, default_y=-118.15):
+                Chord()
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+            with Note(default_x=99.75, default_y=-123.15):
+                with Pitch():
+                    Step('G')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Beam('continue', number=1)
+            with Note(default_x=99.75, default_y=-113.15):
+                Chord()
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+            with Note(default_x=126.42, default_y=-118.15):
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Beam('end', number=1)
+                with Notations():
+                    Slur(type='stop', number=1)
+            with Note(default_x=126.42, default_y=-108.15):
+                Chord()
+                with Pitch():
+                    Step('C')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+            with Note(print_object='no'):
+                Rest()
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+        with Measure(number='11', width=111.79):
+            with Note(default_x=10.0, default_y=-113.15):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(3.0)
+                Tie(type='start')
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('up')
+                with Notations():
+                    Tied(type='start')
+            with Note(default_x=47.04, default_y=-113.15):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Tie(type='stop')
+                Voice('1')
+                Type('quarter')
+                Stem('up')
+                with Notations():
+                    Tied(type='stop')
+            with Note():
+                Rest()
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+            with Backup():
+                Duration(6.0)
+            with Note(default_x=10.0, default_y=-113.15):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(3.0)
+                Tie(type='start')
+                Voice('2')
+                Type('quarter')
+                Dot()
+                Stem('down')
+                with Notations():
+                    Tied(type='start')
+            with Note(default_x=47.04, default_y=-113.15):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Tie(type='stop')
+                Voice('2')
+                Type('quarter')
+                Stem('down')
+                with Notations():
+                    Tied(type='stop')
+            with Forward():
+                Duration(1.0)
+        with Measure(number='12', width=181.55):
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('quarter')
+            with Note(default_x=50.41, default_y=-128.15):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+            with Note(default_x=50.41, default_y=-118.15):
+                Chord()
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+            with Note(default_x=75.08, default_y=-128.15):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Beam('begin', number=1)
+                with Notations():
+                    Slur(type='start', placement='above', number=1)
+            with Note(default_x=75.08, default_y=-118.15):
+                Chord()
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+            with Note(default_x=99.75, default_y=-123.15):
+                with Pitch():
+                    Step('G')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Beam('continue', number=1)
+            with Note(default_x=99.75, default_y=-113.15):
+                Chord()
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+            with Note(default_x=126.42, default_y=-118.15):
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Beam('end', number=1)
+                with Notations():
+                    Slur(type='stop', number=1)
+            with Note(default_x=126.42, default_y=-108.15):
+                Chord()
+                with Pitch():
+                    Step('C')
+                    Octave(4)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+            with Note(print_object='no'):
+                Rest()
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+        with Measure(number='13', width=100.74):
+            with Note(default_x=10.0, default_y=-113.15):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(3.0)
+                Tie(type='start')
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('up')
+                with Notations():
+                    Tied(type='start')
+            with Note(default_x=46.86, default_y=-113.15):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Tie(type='stop')
+                Voice('1')
+                Type('quarter')
+                Stem('up')
+                with Notations():
+                    Tied(type='stop')
+            with Note():
+                Rest()
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+            with Backup():
+                Duration(6.0)
+            with Note(default_x=10.0, default_y=-113.15):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(3.0)
+                Tie(type='start')
+                Voice('2')
+                Type('quarter')
+                Dot()
+                Stem('down')
+                with Notations():
+                    Tied(type='start')
+            with Note(default_x=46.86, default_y=-113.15):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Tie(type='stop')
+                Voice('2')
+                Type('quarter')
+                Stem('down')
+                with Notations():
+                    Tied(type='stop')
+            with Forward():
+                Duration(1.0)
+        with Measure(number='14', width=168.63):
+            with Note():
+                Rest()
+                Duration(2.0)
+                Voice('1')
+                Type('quarter')
+            with Note(default_x=46.65, default_y=-148.15):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(2)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+            with Note(default_x=46.65, default_y=-113.15):
+                Chord()
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+            with Note(default_x=70.35, default_y=-148.15):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(2)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Beam('begin', number=1)
+                with Notations():
+                    Slur(type='start', placement='above', number=1)
+            with Note(default_x=70.35, default_y=-113.15):
+                Chord()
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+            with Note(default_x=92.67, default_y=-143.15):
+                with Pitch():
+                    Step('C')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Beam('continue', number=1)
+            with Note(default_x=92.67, default_y=-118.15):
+                Chord()
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+            with Note(default_x=121.54, default_y=-138.15):
+                with Pitch():
+                    Step('D')
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Beam('end', number=1)
+                with Notations():
+                    Slur(type='stop', number=1)
+            with Note(default_x=121.54, default_y=-118.15):
+                Chord()
+                with Pitch():
+                    Step('A')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Accidental('flat')
+                Stem('down')
+            with Note(print_object='no'):
+                Rest()
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+        with Measure(number='15', width=140.91):
+            with Note(default_x=10.0, default_y=-123.15):
+                with Pitch():
+                    Step('G')
+                    Octave(3)
+                Duration(2.0)
+                Voice('1')
+                Type('quarter')
+                Stem('up')
+                with Notations():
+                    Slur(type='start', placement='above', number=1)
+            with Note(default_x=45.63, default_y=-113.15):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(1.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+                with Notations():
+                    Slur(type='stop', number=1)
+            with Note(default_x=70.9, default_y=-133.15):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(3.0)
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('down')
+            with Note(default_x=70.9, default_y=-113.15):
+                Chord()
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(3.0)
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('down')
+            with Backup():
+                Duration(6.0)
+            with Note(default_x=10.0, default_y=-133.15):
+                with Pitch():
+                    Step('E')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(3.0)
+                Voice('2')
+                Type('quarter')
+                Dot()
+                Stem('down')
+            with Forward():
+                Duration(3.0)
+        with Measure(number='16', width=332.7):
+            with Print(new_system='yes'):
+                with StaffLayout(number=1):
+                    StaffDistance(65.0)
+            with Note(default_x=90.38, default_y=-115.0):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(3.0)
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('down')
+            with Note(default_x=90.38, default_y=-100.0):
+                Chord()
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(3.0)
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('down')
+            with Note(default_x=193.57, default_y=-115.0):
+                with Pitch():
+                    Step('F')
+                    Octave(3)
+                Duration(3.0)
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('down')
+            with Note(default_x=193.57, default_y=-105.0):
+                Chord()
+                with Pitch():
+                    Step('A')
+                    Octave(3)
+                Duration(3.0)
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('down')
+        with Measure(number='17', width=211.9):
+            with Note(default_x=10.0, default_y=-135.0):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(2)
+                Duration(3.0)
+                Tie(type='start')
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('down')
+                with Notations():
+                    Tied(type='start')
+            with Note(default_x=10.0, default_y=-100.0):
+                Chord()
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(3.0)
+                Tie(type='start')
+                Voice('1')
+                Type('quarter')
+                Dot()
+                Stem('down')
+                with Notations():
+                    Tied(type='start')
+            with Note(default_x=119.93, default_y=-135.0):
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(2)
+                Duration(2.0)
+                Tie(type='stop')
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+                with Notations():
+                    Tied(type='stop')
+            with Note(default_x=119.93, default_y=-100.0):
+                Chord()
+                with Pitch():
+                    Step('B')
+                    Alter(-1.0)
+                    Octave(3)
+                Duration(2.0)
+                Tie(type='stop')
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+                with Notations():
+                    Tied(type='stop')
+            with Barline(location='right'):
+                BarStyle('light-heavy')

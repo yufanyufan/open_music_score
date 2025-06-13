@@ -1,0 +1,1171 @@
+with ScorePartwise(version='3.1'):
+    with Work():
+        WorkTitle('Russian Folk Song')
+    with Identification():
+        Creator('Ludwig van Beethoven', type='composer')
+        with Encoding():
+            Software('MuseScore 3.6.2')
+            EncodingDate('2025-01-14')
+            Supports(element='accidental', type='yes')
+            Supports(element='beam', type='yes')
+            Supports(element='print', attribute='new-page', type='yes', value='yes')
+            Supports(element='print', attribute='new-system', type='yes', value='yes')
+            Supports(element='stem', type='yes')
+    with Defaults():
+        with Scaling():
+            Millimeters(7.05556)
+            Tenths(40.0)
+        with PageLayout():
+            PageHeight(1584.0)
+            PageWidth(1224.0)
+            with PageMargins(type='even'):
+                LeftMargin(56.6929)
+                RightMargin(56.6929)
+                TopMargin(56.6929)
+                BottomMargin(113.386)
+            with PageMargins(type='odd'):
+                LeftMargin(56.6929)
+                RightMargin(56.6929)
+                TopMargin(56.6929)
+                BottomMargin(113.386)
+        WordFont(font_family='FreeSerif', font_size='10')
+        LyricFont(font_family='FreeSerif', font_size='11')
+    with Credit(page=1):
+        CreditType('title')
+        CreditWords('Russian Folk Song', default_x=612.0, default_y=1527.31, justify='center', valign='top', font_size='24')
+    with Credit(page=1):
+        CreditType('composer')
+        CreditWords('Ludwig van Beethoven\n', default_x=1167.31, default_y=1256.96, justify='right', valign='bottom', font_weight='bold', font_size='14')
+        CreditWords('1770 - 1827\n')
+        CreditWords(None)
+    with PartList():
+        with ScorePart(id='P1'):
+            PartName('Piano')
+            PartAbbreviation('Pno.')
+            with ScoreInstrument(id='P1-I1'):
+                InstrumentName('Piano')
+            MidiDevice(None, id='P1-I1', port=1)
+            with MidiInstrument(id='P1-I1'):
+                MidiChannel(1)
+                MidiProgram(1)
+                Volume(78.7402)
+                Pan(0.0)
+    with Part(id='P1'):
+        with Measure(number='1', width=345.91):
+            with Print():
+                with SystemLayout():
+                    with SystemMargins():
+                        LeftMargin(21.0)
+                        RightMargin(0.0)
+                    TopSystemDistance(340.34)
+                with StaffLayout(number=2):
+                    StaffDistance(65.0)
+            with Attributes():
+                Divisions(4.0)
+                with Key():
+                    Fifths(1)
+                with Time():
+                    Beats('2')
+                    BeatType('4')
+                Staves(2)
+                with Clef(number=1):
+                    Sign('G')
+                    Line(2)
+                with Clef(number=2):
+                    Sign('F')
+                    Line(4)
+            with Direction(placement='above'):
+                with DirectionType():
+                    Words('Vivace', default_x=-36.0, relative_y=20.0, font_weight='bold', font_size='12')
+                Staff(1)
+                Sound(tempo=172.0)
+            with Direction(placement='below'):
+                with DirectionType():
+                    with Dynamics(default_x=3.29, default_y=-40.0, relative_y=-40.0):
+                        Mf()
+                Staff(1)
+                Sound(dynamics=88.89)
+            with Note(default_x=102.27, default_y=-20.0):
+                with Pitch():
+                    Step('B')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Staff(1)
+                Beam('begin', number=1)
+                with Notations():
+                    Slur(type='start', placement='above', number=1)
+            with Note(default_x=162.78, default_y=-10.0):
+                with Pitch():
+                    Step('D')
+                    Octave(5)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Staff(1)
+                Beam('end', number=1)
+                with Notations():
+                    Slur(type='stop', number=1)
+                    with Articulations():
+                        Staccato()
+            with Note(default_x=223.29, default_y=-10.0):
+                with Pitch():
+                    Step('D')
+                    Octave(5)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Staff(1)
+                Beam('begin', number=1)
+                with Notations():
+                    with Articulations():
+                        Staccato()
+            with Note(default_x=283.8, default_y=-10.0):
+                with Pitch():
+                    Step('D')
+                    Octave(5)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Staff(1)
+                Beam('end', number=1)
+                with Notations():
+                    with Articulations():
+                        Staccato()
+            with Backup():
+                Duration(8.0)
+            with Direction(placement='below'):
+                with DirectionType():
+                    with Dynamics(default_x=3.29, default_y=-40.0, relative_y=-40.0):
+                        Mp()
+                Staff(2)
+                Sound(dynamics=71.11)
+            with Note(default_x=102.27, default_y=-110.0):
+                with Pitch():
+                    Step('G')
+                    Octave(3)
+                Duration(4.0)
+                Voice('5')
+                Type('quarter')
+                Stem('down')
+                Staff(2)
+                with Notations():
+                    Slur(type='start', placement='above', number=1)
+            with Note(default_x=223.29, default_y=-115.0):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(4.0)
+                Voice('5')
+                Type('quarter')
+                Stem('down')
+                Staff(2)
+        with Measure(number='2', width=253.64):
+            with Note(default_x=10.0, default_y=-20.0):
+                with Pitch():
+                    Step('B')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Staff(1)
+                Beam('begin', number=1)
+                with Notations():
+                    Slur(type='start', placement='above', number=2)
+            with Note(default_x=70.51, default_y=-10.0):
+                with Pitch():
+                    Step('D')
+                    Octave(5)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Staff(1)
+                Beam('end', number=1)
+                with Notations():
+                    Slur(type='stop', number=2)
+                    with Articulations():
+                        Staccato()
+            with Note(default_x=131.02, default_y=-10.0):
+                with Pitch():
+                    Step('D')
+                    Octave(5)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Staff(1)
+                Beam('begin', number=1)
+                with Notations():
+                    with Articulations():
+                        Staccato()
+            with Note(default_x=191.53, default_y=-10.0):
+                with Pitch():
+                    Step('D')
+                    Octave(5)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Staff(1)
+                Beam('end', number=1)
+                with Notations():
+                    with Articulations():
+                        Staccato()
+            with Backup():
+                Duration(8.0)
+            with Note(default_x=10.0, default_y=-110.0):
+                with Pitch():
+                    Step('G')
+                    Octave(3)
+                Duration(4.0)
+                Voice('5')
+                Type('quarter')
+                Stem('down')
+                Staff(2)
+            with Note(default_x=131.02, default_y=-135.0):
+                with Pitch():
+                    Step('B')
+                    Octave(2)
+                Duration(4.0)
+                Voice('5')
+                Type('quarter')
+                Stem('up')
+                Staff(2)
+        with Measure(number='3', width=253.64):
+            with Note(default_x=10.0, default_y=-5.0):
+                with Pitch():
+                    Step('E')
+                    Octave(5)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Staff(1)
+                Beam('begin', number=1)
+                with Notations():
+                    Slur(type='start', placement='above', number=2)
+            with Note(default_x=70.51, default_y=-15.0):
+                with Pitch():
+                    Step('C')
+                    Octave(5)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Staff(1)
+                Beam('end', number=1)
+            with Note(default_x=131.02, default_y=-25.0):
+                with Pitch():
+                    Step('A')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Staff(1)
+                Beam('begin', number=1)
+            with Note(default_x=191.53, default_y=-15.0):
+                with Pitch():
+                    Step('C')
+                    Octave(5)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Staff(1)
+                Beam('end', number=1)
+            with Backup():
+                Duration(8.0)
+            with Note(default_x=10.0, default_y=-130.0):
+                with Pitch():
+                    Step('C')
+                    Octave(3)
+                Duration(4.0)
+                Voice('5')
+                Type('quarter')
+                Stem('up')
+                Staff(2)
+            with Note(default_x=131.02, default_y=-125.0):
+                with Pitch():
+                    Step('D')
+                    Octave(3)
+                Duration(4.0)
+                Voice('5')
+                Type('quarter')
+                Stem('down')
+                Staff(2)
+        with Measure(number='4', width=236.41):
+            with Note(default_x=10.0, default_y=-15.0):
+                with Pitch():
+                    Step('C')
+                    Octave(5)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Staff(1)
+                Beam('begin', number=1)
+            with Note(default_x=72.45, default_y=-20.0):
+                with Pitch():
+                    Step('B')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Staff(1)
+                Beam('end', number=1)
+            with Note(default_x=134.9, default_y=-20.0):
+                with Pitch():
+                    Step('B')
+                    Octave(4)
+                Duration(4.0)
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+                Staff(1)
+                with Notations():
+                    Slur(type='stop', number=2)
+            with Backup():
+                Duration(8.0)
+            with Note(default_x=10.0, default_y=-145.0):
+                with Pitch():
+                    Step('G')
+                    Octave(2)
+                Duration(4.0)
+                Voice('5')
+                Type('quarter')
+                Stem('up')
+                Staff(2)
+            with Note(default_x=134.9, default_y=-125.0):
+                with Pitch():
+                    Step('D')
+                    Octave(3)
+                Duration(4.0)
+                Voice('5')
+                Type('quarter')
+                Stem('down')
+                Staff(2)
+                with Notations():
+                    Slur(type='stop', number=1)
+        with Measure(number='5', width=325.84):
+            with Print(new_system='yes'):
+                with SystemLayout():
+                    with SystemMargins():
+                        LeftMargin(21.0)
+                        RightMargin(0.0)
+                    SystemDistance(136.84)
+                with StaffLayout(number=2):
+                    StaffDistance(65.0)
+            with Direction(placement='below'):
+                with DirectionType():
+                    with Dynamics(default_x=3.29, default_y=-40.0, relative_y=-40.0):
+                        P()
+                Staff(1)
+                Sound(dynamics=54.44)
+            with Note(default_x=81.21, default_y=-20.0):
+                with Pitch():
+                    Step('B')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Staff(1)
+                Beam('begin', number=1)
+                with Notations():
+                    Slur(type='start', placement='above', number=1)
+            with Note(default_x=141.97, default_y=-10.0):
+                with Pitch():
+                    Step('D')
+                    Octave(5)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Staff(1)
+                Beam('end', number=1)
+                with Notations():
+                    Slur(type='stop', number=1)
+                    with Articulations():
+                        Staccato()
+            with Note(default_x=202.73, default_y=-10.0):
+                with Pitch():
+                    Step('D')
+                    Octave(5)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Staff(1)
+                Beam('begin', number=1)
+                with Notations():
+                    with Articulations():
+                        Staccato()
+            with Note(default_x=263.48, default_y=-10.0):
+                with Pitch():
+                    Step('D')
+                    Octave(5)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Staff(1)
+                Beam('end', number=1)
+                with Notations():
+                    with Articulations():
+                        Staccato()
+            with Backup():
+                Duration(8.0)
+            with Direction(placement='below'):
+                with DirectionType():
+                    with Dynamics(default_x=3.29, default_y=-40.0, relative_y=-40.0):
+                        Pp()
+                Staff(2)
+                Sound(dynamics=36.67)
+            with Note(default_x=81.21, default_y=-110.0):
+                with Pitch():
+                    Step('G')
+                    Octave(3)
+                Duration(4.0)
+                Voice('5')
+                Type('quarter')
+                Stem('down')
+                Staff(2)
+                with Notations():
+                    Slur(type='start', placement='above', number=1)
+            with Note(default_x=202.73, default_y=-115.0):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(4.0)
+                Voice('5')
+                Type('quarter')
+                Stem('down')
+                Staff(2)
+        with Measure(number='6', width=254.63):
+            with Note(default_x=10.0, default_y=-20.0):
+                with Pitch():
+                    Step('B')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Staff(1)
+                Beam('begin', number=1)
+                with Notations():
+                    Slur(type='start', placement='above', number=2)
+            with Note(default_x=70.76, default_y=-10.0):
+                with Pitch():
+                    Step('D')
+                    Octave(5)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Staff(1)
+                Beam('end', number=1)
+                with Notations():
+                    Slur(type='stop', number=2)
+                    with Articulations():
+                        Staccato()
+            with Note(default_x=131.51, default_y=-10.0):
+                with Pitch():
+                    Step('D')
+                    Octave(5)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Staff(1)
+                Beam('begin', number=1)
+                with Notations():
+                    with Articulations():
+                        Staccato()
+            with Note(default_x=192.27, default_y=-10.0):
+                with Pitch():
+                    Step('D')
+                    Octave(5)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Staff(1)
+                Beam('end', number=1)
+                with Notations():
+                    with Articulations():
+                        Staccato()
+            with Backup():
+                Duration(8.0)
+            with Note(default_x=10.0, default_y=-110.0):
+                with Pitch():
+                    Step('G')
+                    Octave(3)
+                Duration(4.0)
+                Voice('5')
+                Type('quarter')
+                Stem('down')
+                Staff(2)
+            with Note(default_x=131.51, default_y=-135.0):
+                with Pitch():
+                    Step('B')
+                    Octave(2)
+                Duration(4.0)
+                Voice('5')
+                Type('quarter')
+                Stem('up')
+                Staff(2)
+        with Measure(number='7', width=254.63):
+            with Note(default_x=10.0, default_y=-5.0):
+                with Pitch():
+                    Step('E')
+                    Octave(5)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Staff(1)
+                Beam('begin', number=1)
+                with Notations():
+                    Slur(type='start', placement='above', number=2)
+            with Note(default_x=70.76, default_y=-15.0):
+                with Pitch():
+                    Step('C')
+                    Octave(5)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Staff(1)
+                Beam('end', number=1)
+            with Note(default_x=131.51, default_y=-25.0):
+                with Pitch():
+                    Step('A')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+                Staff(1)
+                Beam('begin', number=1)
+            with Note(default_x=192.27, default_y=-35.0):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+                Staff(1)
+                Beam('end', number=1)
+            with Backup():
+                Duration(8.0)
+            with Note(default_x=10.0, default_y=-130.0):
+                with Pitch():
+                    Step('C')
+                    Octave(3)
+                Duration(4.0)
+                Voice('5')
+                Type('quarter')
+                Stem('up')
+                Staff(2)
+            with Note(default_x=131.51, default_y=-125.0):
+                with Pitch():
+                    Step('D')
+                    Octave(3)
+                Duration(4.0)
+                Voice('5')
+                Type('quarter')
+                Stem('down')
+                Staff(2)
+        with Measure(number='8', width=254.52):
+            with Note(default_x=10.36, default_y=-25.0):
+                with Pitch():
+                    Step('A')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+                Staff(1)
+                Beam('begin', number=1)
+            with Note(default_x=73.08, default_y=-30.0):
+                with Pitch():
+                    Step('G')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('up')
+                Staff(1)
+                Beam('end', number=1)
+            with Note(default_x=135.8, default_y=-30.0):
+                with Pitch():
+                    Step('G')
+                    Octave(4)
+                Duration(4.0)
+                Voice('1')
+                Type('quarter')
+                Stem('up')
+                Staff(1)
+                with Notations():
+                    Slur(type='stop', number=2)
+            with Backup():
+                Duration(8.0)
+            with Note(default_x=10.0, default_y=-145.0):
+                with Pitch():
+                    Step('G')
+                    Octave(2)
+                Duration(8.0)
+                Voice('5')
+                Type('half')
+                Stem('up')
+                Staff(2)
+                with Notations():
+                    Slur(type='stop', number=1)
+            with Barline(location='right'):
+                BarStyle('light-heavy')
+                Repeat(direction='backward')
+        with Measure(number='9', width=347.2):
+            with Print(new_system='yes'):
+                with SystemLayout():
+                    with SystemMargins():
+                        LeftMargin(21.0)
+                        RightMargin(0.0)
+                    SystemDistance(136.84)
+                with StaffLayout(number=2):
+                    StaffDistance(65.0)
+            with Barline(location='left'):
+                BarStyle('heavy-light')
+                Repeat(direction='forward')
+            with Direction(placement='below'):
+                with DirectionType():
+                    with Dynamics(default_x=3.29, default_y=-40.0, relative_y=-40.0):
+                        F()
+                Staff(1)
+                Sound(dynamics=106.67)
+            with Note(default_x=109.58, default_y=5.0):
+                with Pitch():
+                    Step('G')
+                    Octave(5)
+                Duration(4.0)
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+                Staff(1)
+                with Notations():
+                    Slur(type='start', placement='above', number=1)
+            with Note(default_x=210.38, default_y=5.0):
+                with Pitch():
+                    Step('G')
+                    Octave(5)
+                Duration(3.0)
+                Voice('1')
+                Type('eighth')
+                Dot()
+                Stem('down')
+                Staff(1)
+                Beam('begin', number=1)
+            with Note(default_x=299.78, default_y=0.0):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(5)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                Staff(1)
+                Beam('end', number=1)
+                Beam('backward hook', number=2)
+            with Backup():
+                Duration(8.0)
+            with Direction(placement='below'):
+                with DirectionType():
+                    with Dynamics(default_x=6.58, default_y=-40.0, relative_y=-40.0):
+                        Mf()
+                Staff(2)
+                Sound(dynamics=88.89)
+            with Note(default_x=109.58, default_y=-135.0):
+                with Pitch():
+                    Step('B')
+                    Octave(2)
+                Duration(4.0)
+                Voice('5')
+                Type('quarter')
+                Stem('up')
+                Staff(2)
+                with Notations():
+                    Slur(type='start', placement='above', number=2)
+            with Note(default_x=210.38, default_y=-145.0):
+                with Pitch():
+                    Step('G')
+                    Octave(2)
+                Duration(4.0)
+                Voice('5')
+                Type('quarter')
+                Stem('up')
+                Staff(2)
+        with Measure(number='10', width=247.62):
+            with Note(default_x=10.0, default_y=0.0):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(5)
+                Duration(3.0)
+                Voice('1')
+                Type('eighth')
+                Dot()
+                Stem('down')
+                Staff(1)
+                Beam('begin', number=1)
+            with Note(default_x=99.39, default_y=-5.0):
+                with Pitch():
+                    Step('E')
+                    Octave(5)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                Staff(1)
+                Beam('end', number=1)
+                Beam('backward hook', number=2)
+            with Note(default_x=145.21, default_y=-5.0):
+                with Pitch():
+                    Step('E')
+                    Octave(5)
+                Duration(4.0)
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+                Staff(1)
+                with Notations():
+                    Slur(type='stop', number=1)
+            with Backup():
+                Duration(8.0)
+            with Note(default_x=10.0, default_y=-130.0):
+                with Pitch():
+                    Step('C')
+                    Octave(3)
+                Duration(4.0)
+                Voice('5')
+                Type('quarter')
+                Stem('up')
+                Staff(2)
+            with Note(default_x=145.21, default_y=-140.0):
+                with Pitch():
+                    Step('A')
+                    Octave(2)
+                Duration(4.0)
+                Voice('5')
+                Type('quarter')
+                Stem('up')
+                Staff(2)
+                with Notations():
+                    Slur(type='stop', number=2)
+        with Measure(number='11', width=256.02):
+            with Note(default_x=10.0, default_y=-10.0):
+                with Pitch():
+                    Step('D')
+                    Octave(5)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Staff(1)
+                Beam('begin', number=1)
+                with Notations():
+                    Slur(type='start', placement='above', number=1)
+            with Note(default_x=71.1, default_y=-5.0):
+                with Pitch():
+                    Step('E')
+                    Octave(5)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Staff(1)
+                Beam('end', number=1)
+            with Note(default_x=132.21, default_y=-10.0):
+                with Pitch():
+                    Step('D')
+                    Octave(5)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Staff(1)
+                Beam('begin', number=1)
+            with Note(default_x=193.31, default_y=-15.0):
+                with Pitch():
+                    Step('C')
+                    Octave(5)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Staff(1)
+                Beam('end', number=1)
+            with Backup():
+                Duration(8.0)
+            with Note(default_x=10.0, default_y=-125.0):
+                with Pitch():
+                    Step('D')
+                    Octave(3)
+                Duration(4.0)
+                Voice('5')
+                Type('quarter')
+                Stem('down')
+                Staff(2)
+            with Note(default_x=132.21, default_y=-115.0):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(3)
+                Duration(4.0)
+                Voice('5')
+                Type('quarter')
+                Stem('down')
+                Staff(2)
+        with Measure(number='12', width=238.78):
+            with Note(default_x=10.0, default_y=-15.0):
+                with Pitch():
+                    Step('C')
+                    Octave(5)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Staff(1)
+                Beam('begin', number=1)
+            with Note(default_x=73.11, default_y=-20.0):
+                with Pitch():
+                    Step('B')
+                    Octave(4)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Staff(1)
+                Beam('end', number=1)
+            with Note(default_x=136.21, default_y=-20.0):
+                with Pitch():
+                    Step('B')
+                    Octave(4)
+                Duration(4.0)
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+                Staff(1)
+                with Notations():
+                    Slur(type='stop', number=1)
+            with Backup():
+                Duration(8.0)
+            with Note(default_x=10.0, default_y=-110.0):
+                with Pitch():
+                    Step('G')
+                    Octave(3)
+                Duration(4.0)
+                Voice('5')
+                Type('quarter')
+                Stem('down')
+                Staff(2)
+            with Note(default_x=136.21, default_y=-125.0):
+                with Pitch():
+                    Step('D')
+                    Octave(3)
+                Duration(4.0)
+                Voice('5')
+                Type('quarter')
+                Stem('down')
+                Staff(2)
+        with Measure(number='13', width=318.57):
+            with Print(new_system='yes'):
+                with SystemLayout():
+                    with SystemMargins():
+                        LeftMargin(21.0)
+                        RightMargin(0.0)
+                    SystemDistance(136.84)
+                with StaffLayout(number=2):
+                    StaffDistance(78.06)
+            with Direction(placement='below'):
+                with DirectionType():
+                    with Dynamics(default_x=3.29, default_y=-40.0, relative_y=-40.0):
+                        P()
+                Staff(1)
+                Sound(dynamics=54.44)
+            with Note(default_x=81.21, default_y=5.0):
+                with Pitch():
+                    Step('G')
+                    Octave(5)
+                Duration(4.0)
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+                Staff(1)
+                with Notations():
+                    Slur(type='start', placement='above', number=1)
+            with Note(default_x=181.91, default_y=5.0):
+                with Pitch():
+                    Step('G')
+                    Octave(5)
+                Duration(3.0)
+                Voice('1')
+                Type('eighth')
+                Dot()
+                Stem('down')
+                Staff(1)
+                Beam('begin', number=1)
+            with Note(default_x=271.2, default_y=0.0):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(5)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                Staff(1)
+                Beam('end', number=1)
+                Beam('backward hook', number=2)
+            with Backup():
+                Duration(8.0)
+            with Direction(placement='below'):
+                with DirectionType():
+                    with Dynamics(default_x=6.58, default_y=-40.0, relative_y=-40.0):
+                        Pp()
+                Staff(2)
+                Sound(dynamics=36.67)
+            with Note(default_x=81.21, default_y=-148.06):
+                with Pitch():
+                    Step('B')
+                    Octave(2)
+                Duration(4.0)
+                Voice('5')
+                Type('quarter')
+                Stem('up')
+                Staff(2)
+                with Notations():
+                    Slur(type='start', placement='above', number=2)
+            with Note(default_x=181.91, default_y=-158.06):
+                with Pitch():
+                    Step('G')
+                    Octave(2)
+                Duration(4.0)
+                Voice('5')
+                Type('quarter')
+                Stem('up')
+                Staff(2)
+        with Measure(number='14', width=247.36):
+            with Note(default_x=10.0, default_y=0.0):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(5)
+                Duration(3.0)
+                Voice('1')
+                Type('eighth')
+                Dot()
+                Stem('down')
+                Staff(1)
+                Beam('begin', number=1)
+            with Note(default_x=99.3, default_y=-5.0):
+                with Pitch():
+                    Step('E')
+                    Octave(5)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                Staff(1)
+                Beam('end', number=1)
+                Beam('backward hook', number=2)
+            with Note(default_x=145.07, default_y=-5.0):
+                with Pitch():
+                    Step('E')
+                    Octave(5)
+                Duration(4.0)
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+                Staff(1)
+                with Notations():
+                    Slur(type='stop', number=1)
+            with Backup():
+                Duration(8.0)
+            with Note(default_x=10.0, default_y=-143.06):
+                with Pitch():
+                    Step('C')
+                    Octave(3)
+                Duration(4.0)
+                Voice('5')
+                Type('quarter')
+                Stem('up')
+                Staff(2)
+            with Note(default_x=145.07, default_y=-153.06):
+                with Pitch():
+                    Step('A')
+                    Octave(2)
+                Duration(4.0)
+                Voice('5')
+                Type('quarter')
+                Stem('up')
+                Staff(2)
+                with Notations():
+                    Slur(type='stop', number=2)
+        with Measure(number='15', width=255.76):
+            with Note(default_x=10.0, default_y=-10.0):
+                with Pitch():
+                    Step('D')
+                    Octave(5)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Staff(1)
+                Beam('begin', number=1)
+                with Notations():
+                    with Articulations():
+                        Staccato()
+            with Direction(placement='below'):
+                with DirectionType():
+                    Wedge(type='crescendo', number=1, default_y=-99.65)
+                Staff(1)
+            with Note(default_x=71.04, default_y=-10.0):
+                with Pitch():
+                    Step('D')
+                    Octave(5)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Staff(1)
+                Beam('end', number=1)
+                with Notations():
+                    Slur(type='start', placement='above', number=1)
+            with Note(default_x=132.08, default_y=-5.0):
+                with Pitch():
+                    Step('E')
+                    Octave(5)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Staff(1)
+                Beam('begin', number=1)
+            with Note(default_x=193.12, default_y=0.0):
+                with Pitch():
+                    Step('F')
+                    Alter(1.0)
+                    Octave(5)
+                Duration(2.0)
+                Voice('1')
+                Type('eighth')
+                Stem('down')
+                Staff(1)
+                Beam('end', number=1)
+            with Backup():
+                Duration(8.0)
+            with Note(default_x=10.0, default_y=-138.06):
+                with Pitch():
+                    Step('D')
+                    Octave(3)
+                Duration(4.0)
+                Voice('5')
+                Type('quarter')
+                Stem('down')
+                Staff(2)
+                with Notations():
+                    Slur(type='start', placement='above', number=2)
+            with Direction(placement='below'):
+                with DirectionType():
+                    with Dynamics(default_x=6.58, default_y=-40.0, relative_y=-40.0):
+                        P()
+                Staff(2)
+                Sound(dynamics=54.44)
+            with Note(default_x=132.08, default_y=-173.06):
+                with Pitch():
+                    Step('D')
+                    Octave(2)
+                Duration(4.0)
+                Voice('5')
+                Type('quarter')
+                Stem('up')
+                Staff(2)
+        with Measure(number='16', width=267.93):
+            with Direction(placement='below'):
+                with DirectionType():
+                    with Dynamics(default_x=3.29, default_y=-40.0, relative_y=-40.0):
+                        F()
+                Staff(1)
+                Sound(dynamics=106.67)
+            with Note(default_x=13.8, default_y=10.0):
+                with Pitch():
+                    Step('A')
+                    Octave(5)
+                Duration(3.0)
+                Voice('1')
+                Type('eighth')
+                Dot()
+                Stem('down')
+                Staff(1)
+                Beam('begin', number=1)
+            with Direction(placement='below'):
+                with DirectionType():
+                    Wedge(type='stop', number=1)
+                Staff(1)
+            with Note(default_x=103.1, default_y=5.0):
+                with Pitch():
+                    Step('G')
+                    Octave(5)
+                Duration(1.0)
+                Voice('1')
+                Type('16th')
+                Stem('down')
+                Staff(1)
+                Beam('end', number=1)
+                Beam('backward hook', number=2)
+            with Note(default_x=148.87, default_y=5.0):
+                with Pitch():
+                    Step('G')
+                    Octave(5)
+                Duration(4.0)
+                Voice('1')
+                Type('quarter')
+                Stem('down')
+                Staff(1)
+                with Notations():
+                    Slur(type='stop', number=1)
+            with Backup():
+                Duration(8.0)
+            with Direction(placement='below'):
+                with DirectionType():
+                    with Dynamics(default_x=6.58, default_y=-40.0, relative_y=-40.0):
+                        Mp()
+                Staff(2)
+                Sound(dynamics=71.11)
+            with Note(default_x=13.44, default_y=-158.06):
+                with Pitch():
+                    Step('G')
+                    Octave(2)
+                Duration(8.0)
+                Voice('5')
+                Type('half')
+                Stem('up')
+                Staff(2)
+                with Notations():
+                    Slur(type='stop', number=2)
+            with Barline(location='right'):
+                BarStyle('light-heavy')
+                Repeat(direction='backward')
