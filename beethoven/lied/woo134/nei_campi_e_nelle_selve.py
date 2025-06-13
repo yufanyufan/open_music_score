@@ -4,14 +4,11 @@ with ScorePartwise(version='3.1'):
     with Identification():
         Creator('Ludvig van Beethoven', type='composer')
         with Encoding():
-            Software('MuseScore 3.6.2')
-            EncodingDate('2025-01-13')
             Supports(element='accidental', type='yes')
             Supports(element='beam', type='yes')
             Supports(element='print', attribute='new-page', type='yes', value='yes')
             Supports(element='print', attribute='new-system', type='yes', value='yes')
             Supports(element='stem', type='yes')
-        Source('https://musescore.com/sangerforum/scores/3582621')
     with Defaults():
         with Scaling():
             Millimeters(7.05556)

@@ -6,14 +6,11 @@ with ScorePartwise(version='3.1'):
         Creator('W.A. Mozart', type='composer')
         Rights('(CC0) http://creativecommons.org/publicdomain/zero/1.0/\n')
         with Encoding():
-            Software('MuseScore 3.6.2')
-            EncodingDate('2025-01-14')
             Supports(element='accidental', type='yes')
             Supports(element='beam', type='yes')
             Supports(element='print', attribute='new-page', type='yes', value='yes')
             Supports(element='print', attribute='new-system', type='yes', value='yes')
             Supports(element='stem', type='yes')
-        Source('http://imslp.org/wiki/Per_questa_bella_mano,_K.612_(Mozart,_Wolfgang_Amadeus)')
     with Defaults():
         with Scaling():
             Millimeters(6.256)

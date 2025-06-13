@@ -5,8 +5,6 @@ with ScorePartwise(version='3.1'):
         Creator('Johann Sebastian Bach', type='composer')
         Rights('by Mutopia 2013/02/17-54\nScritto con MuseScore, un software libero e gratuito: http://musescore.org/it ')
         with Encoding():
-            Software('MuseScore 3.6.2')
-            EncodingDate('2025-01-14')
             Supports(element='accidental', type='yes')
             Supports(element='beam', type='yes')
             Supports(element='print', attribute='new-page', type='yes', value='yes')

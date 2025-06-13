@@ -9,14 +9,11 @@ with ScorePartwise(version='3.1'):
         Creator('Christian Fürchtegott Gellert', type='lyricist')
         Rights('OpenScore (CC0)')
         with Encoding():
-            Software('MuseScore 3.6.2')
-            EncodingDate('2025-01-14')
             Supports(element='accidental', type='yes')
             Supports(element='beam', type='yes')
             Supports(element='print', attribute='new-page', type='yes', value='yes')
             Supports(element='print', attribute='new-system', type='yes', value='yes')
             Supports(element='stem', type='yes')
-        Source('http://musescore.com/openscore-lieder-corpus/scores/5121692')
     with Defaults():
         with Scaling():
             Millimeters(7.05556)

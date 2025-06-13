@@ -5,14 +5,11 @@ with ScorePartwise(version='3.1'):
         Creator('J. S. Bach', type='composer')
         Creator('BWV 924', type='lyricist')
         with Encoding():
-            Software('MuseScore 3.6.2')
-            EncodingDate('2025-01-14')
             Supports(element='accidental', type='yes')
             Supports(element='beam', type='yes')
             Supports(element='print', attribute='new-page', type='yes', value='yes')
             Supports(element='print', attribute='new-system', type='yes', value='yes')
             Supports(element='stem', type='yes')
-        Source('https://musescore.com/score/2770016')
     with Defaults():
         with Scaling():
             Millimeters(6.256)

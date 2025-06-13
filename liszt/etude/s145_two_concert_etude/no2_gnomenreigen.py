@@ -3,14 +3,11 @@ with ScorePartwise(version='3.1'):
         WorkTitle('Waldesrauchen')
     with Identification():
         with Encoding():
-            Software('MuseScore 3.6.2')
-            EncodingDate('2025-01-14')
             Supports(element='accidental', type='yes')
             Supports(element='beam', type='yes')
             Supports(element='print', attribute='new-page', type='yes', value='yes')
             Supports(element='print', attribute='new-system', type='yes', value='yes')
             Supports(element='stem', type='yes')
-        Source('http://musescore.com/user/27021897/scores/6286567')
     with Defaults():
         with Scaling():
             Millimeters(4.8)

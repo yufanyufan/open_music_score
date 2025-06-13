@@ -6,8 +6,6 @@ with ScorePartwise(version='3.1'):
         Creator('Offertory, BVM', type='lyricist')
         Rights('Copyright © 2015 by CPDL.  This edition can be fully distributed, duplicated, performed, and recorded.\n')
         with Encoding():
-            Software('MuseScore 3.6.2')
-            EncodingDate('2025-01-14')
             Supports(element='accidental', type='yes')
             Supports(element='beam', type='yes')
             Supports(element='print', attribute='new-page', type='yes', value='yes')

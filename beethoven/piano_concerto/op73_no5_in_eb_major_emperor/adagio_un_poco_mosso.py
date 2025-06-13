@@ -4,8 +4,6 @@ with ScorePartwise(version='3.1'):
     with Identification():
         Creator('Ludwig Van Beethoven', type='composer')
         with Encoding():
-            Software('MuseScore 3.6.2')
-            EncodingDate('2025-01-14')
             Supports(element='accidental', type='yes')
             Supports(element='beam', type='yes')
             Supports(element='print', attribute='new-page', type='yes', value='yes')

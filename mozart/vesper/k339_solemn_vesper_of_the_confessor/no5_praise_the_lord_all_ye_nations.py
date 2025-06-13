@@ -5,14 +5,11 @@ with ScorePartwise(version='3.1'):
         Creator('W. A. Mozart 1780', type='composer')
         Creator('Arr. Mike Magatagan 2015', type='lyricist')
         with Encoding():
-            Software('MuseScore 3.6.2')
-            EncodingDate('2025-01-14')
             Supports(element='accidental', type='yes')
             Supports(element='beam', type='yes')
             Supports(element='print', attribute='new-page', type='yes', value='yes')
             Supports(element='print', attribute='new-system', type='yes', value='yes')
             Supports(element='stem', type='yes')
-        Source('https://musescore.com/user/16112556/scores/4731511')
     with Defaults():
         with Scaling():
             Millimeters(5.6)

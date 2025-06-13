@@ -5,8 +5,6 @@ with ScorePartwise(version='3.1'):
         Creator('Franz Liszt (1870)', type='composer')
         Rights('Copyright © 2017 by CPDL.  This edition can be fully distributed, duplicated, performed, and recorded.')
         with Encoding():
-            Software('MuseScore 3.6.2')
-            EncodingDate('2025-01-14')
             Supports(element='accidental', type='yes')
             Supports(element='beam', type='yes')
             Supports(element='print', attribute='new-page', type='yes', value='yes')

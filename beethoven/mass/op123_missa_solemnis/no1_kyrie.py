@@ -5,14 +5,11 @@ with ScorePartwise(version='3.1'):
         Creator('Ludwig van Beethoven', type='composer')
         Creator('Arr. by Salomon Jadassohn', type='lyricist')
         with Encoding():
-            Software('MuseScore 3.6.2')
-            EncodingDate('2025-01-14')
             Supports(element='accidental', type='yes')
             Supports(element='beam', type='yes')
             Supports(element='print', attribute='new-page', type='yes', value='yes')
             Supports(element='print', attribute='new-system', type='yes', value='yes')
             Supports(element='stem', type='yes')
-        Source('http://musescore.com/user/3935996/scores/6065293')
     with Defaults():
         with Scaling():
             Millimeters(3.6)

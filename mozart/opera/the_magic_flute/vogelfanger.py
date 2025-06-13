@@ -5,8 +5,6 @@ with ScorePartwise(version='3.1'):
         Creator('Een speelmansboek uit Maastricht/Tongeren (1786-1824)', type='lyricist')
         Rights('Genoteerd door Van der Elst Johan')
         with Encoding():
-            Software('MuseScore 3.6.2')
-            EncodingDate('2025-01-14')
             Supports(element='accidental', type='yes')
             Supports(element='beam', type='yes')
             Supports(element='print', attribute='new-page', type='yes', value='yes')

@@ -2,14 +2,11 @@ with ScorePartwise(version='3.1'):
     with Identification():
         Creator('W. A Mozart', type='composer')
         with Encoding():
-            Software('MuseScore 3.6.2')
-            EncodingDate('2025-01-14')
             Supports(element='accidental', type='yes')
             Supports(element='beam', type='yes')
             Supports(element='print', attribute='new-page', type='yes', value='yes')
             Supports(element='print', attribute='new-system', type='yes', value='yes')
             Supports(element='stem', type='yes')
-        Source('http://musescore.com/user/11173771/scores/5867990')
     with Defaults():
         with Scaling():
             Millimeters(5.456)

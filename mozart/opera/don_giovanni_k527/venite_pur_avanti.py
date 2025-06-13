@@ -8,8 +8,6 @@ with ScorePartwise(version='3.1'):
         Creator('L. da Ponte', type='lyricist')
         Rights("Creative Commons Attribution 4.0 International (CC BY 4.0) Copyright © 2019 \n\tProvided to the Choral Public Domain Library (http://www.cpdl.org) \n\tby the Freshman Chorus of St. John's College of Annapolis.\n\tEdition may be freely distributed, duplicated, performed, or recorded.\n\t")
         with Encoding():
-            Software('MuseScore 3.6.2')
-            EncodingDate('2025-01-14')
             Supports(element='accidental', type='yes')
             Supports(element='beam', type='yes')
             Supports(element='print', attribute='new-page', type='yes', value='yes')

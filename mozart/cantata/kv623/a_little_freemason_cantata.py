@@ -5,8 +5,6 @@ with ScorePartwise(version='3.1'):
         Creator('Emmanuel Schikaneder', type='lyricist')
         Rights('Copyright © 2014 by the Choral Public Domain Library (http://www.cpdl.org)')
         with Encoding():
-            Software('MuseScore 3.6.2')
-            EncodingDate('2025-01-14')
             Supports(element='accidental', type='yes')
             Supports(element='beam', type='yes')
             Supports(element='print', attribute='new-page', type='yes', value='yes')

@@ -2,8 +2,6 @@ with ScorePartwise(version='3.1'):
     with Identification():
         Rights('Mozart, Die Zauberflöte: Der Vogelfänger bin ich ja\n')
         with Encoding():
-            Software('MuseScore 3.6.2')
-            EncodingDate('2025-01-14')
             Supports(element='accidental', type='yes')
             Supports(element='beam', type='yes')
             Supports(element='print', attribute='new-page', type='yes', value='yes')

@@ -5,14 +5,11 @@ with ScorePartwise(version='3.1'):
         Creator('Arr. & Ed. by Clifton Jones', type='composer')
         Rights('Bass Clarinet')
         with Encoding():
-            Software('MuseScore 3.6.2')
-            EncodingDate('2025-01-14')
             Supports(element='accidental', type='yes')
             Supports(element='beam', type='yes')
             Supports(element='print', attribute='new-page', type='yes', value='yes')
             Supports(element='print', attribute='new-system', type='yes', value='yes')
             Supports(element='stem', type='yes')
-        Source('http://musescore.com/user/33977704/scores/5944056')
     with Defaults():
         with Scaling():
             Millimeters(7.05556)

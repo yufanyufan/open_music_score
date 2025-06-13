@@ -5,8 +5,6 @@ with ScorePartwise(version='3.1'):
         Creator('J. S. Bach', type='composer')
         Rights('Copyright © 2009 by the Choral Public Domain Library (http://www.cpdl.org)\nEdition may be freely distributed, duplicated, performed, or recorded.')
         with Encoding():
-            Software('MuseScore 3.6.2')
-            EncodingDate('2025-01-14')
             Supports(element='accidental', type='yes')
             Supports(element='beam', type='yes')
             Supports(element='print', attribute='new-page', type='yes', value='yes')

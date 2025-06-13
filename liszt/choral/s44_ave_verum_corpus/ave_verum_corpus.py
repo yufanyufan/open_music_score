@@ -5,14 +5,11 @@ with ScorePartwise(version='3.1'):
         Creator('Franz Liszt (1871)\nw/organ ad lib.', type='composer')
         Rights('Copyright © 2014 by CPDL.  This edition can be fully distributed, duplicated, performed, and recorded ')
         with Encoding():
-            Software('MuseScore 3.6.2')
-            EncodingDate('2025-01-14')
             Supports(element='accidental', type='yes')
             Supports(element='beam', type='yes')
             Supports(element='print', attribute='new-page', type='yes', value='yes')
             Supports(element='print', attribute='new-system', type='yes', value='yes')
             Supports(element='stem', type='yes')
-        Source('http://musescore.com/user/36264/scores/5678816')
     with Defaults():
         with Scaling():
             Millimeters(6.69976)

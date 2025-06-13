@@ -4,8 +4,6 @@ with ScorePartwise(version='3.1'):
         Creator('Ludwig van Beethoven, 1803', type='composer')
         Rights('Public Domain\nCourtesy of the Cyber Hymnal™')
         with Encoding():
-            Software('MuseScore 3.6.2')
-            EncodingDate('2025-01-14')
             Supports(element='accidental', type='yes')
             Supports(element='beam', type='yes')
             Supports(element='print', attribute='new-page', type='yes', value='yes')

@@ -5,8 +5,6 @@ with ScorePartwise(version='3.1'):
         Creator('Wolfgang Amadeus Mozart (1756-1791)', type='composer')
         Rights('Public Domain')
         with Encoding():
-            Software('MuseScore 3.6.2')
-            EncodingDate('2025-01-15')
             Supports(element='accidental', type='yes')
             Supports(element='beam', type='yes')
             Supports(element='print', attribute='new-page', type='yes', value='yes')

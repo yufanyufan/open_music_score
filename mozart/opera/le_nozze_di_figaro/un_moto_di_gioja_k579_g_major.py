@@ -2,8 +2,6 @@ with ScorePartwise(version='3.1'):
     with Identification():
         Rights("Composed 1789 Public Domain\nThis MuseScore edition was transcribed by E. van Eerten from a scanned pdf version on the IMSLP.org website\nVersion Wolfgang Amadeus Mozarts Werke, Serie VII: Lieder und Kanons (pp.75-76)' \nLeipzig: Breitkopf & Härtel, 1877. Plate W.A.M. 579.")
         with Encoding():
-            Software('MuseScore 3.6.2')
-            EncodingDate('2025-01-14')
             Supports(element='accidental', type='yes')
             Supports(element='beam', type='yes')
             Supports(element='print', attribute='new-page', type='yes', value='yes')

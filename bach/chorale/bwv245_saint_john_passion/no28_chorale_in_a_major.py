@@ -9,14 +9,11 @@ with ScorePartwise(version='3.1'):
         Creator('Johann Sebastian Bach (1685--1750)', type='composer')
         Rights('Sequenced by Edward J. Maurath')
         with Encoding():
-            Software('MuseScore 3.6.2')
-            EncodingDate('2025-01-15')
             Supports(element='accidental', type='yes')
             Supports(element='beam', type='yes')
             Supports(element='print', attribute='new-page', type='yes', value='yes')
             Supports(element='print', attribute='new-system', type='yes', value='yes')
             Supports(element='stem', type='yes')
-        Source('http://musescore.com/user/272961/scores/5446678')
     with Defaults():
         with Scaling():
             Millimeters(5.456)

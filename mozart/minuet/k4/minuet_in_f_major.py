@@ -5,8 +5,6 @@ with ScorePartwise(version='3.1'):
         Creator('W. A. Mozart', type='composer')
         Creator('Köch. Verz. No. 1', type='lyricist')
         with Encoding():
-            Software('MuseScore 3.6.2')
-            EncodingDate('2025-01-14')
             Supports(element='accidental', type='yes')
             Supports(element='beam', type='yes')
             Supports(element='print', attribute='new-page', type='yes', value='yes')

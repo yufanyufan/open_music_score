@@ -3,8 +3,6 @@ with ScorePartwise(version='3.1'):
         WorkTitle('Beethoven - Symphony No.6. [Mvt.2.] {Professional production full score.}')
     with Identification():
         with Encoding():
-            Software('MuseScore 3.6.2')
-            EncodingDate('2025-01-14')
             Supports(element='accidental', type='yes')
             Supports(element='beam', type='yes')
             Supports(element='print', attribute='new-page', type='yes', value='yes')

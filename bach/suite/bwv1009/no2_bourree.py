@@ -4,14 +4,11 @@ with ScorePartwise(version='3.1'):
     with Identification():
         Rights('J. S. Bach')
         with Encoding():
-            Software('MuseScore 3.6.2')
-            EncodingDate('2025-01-14')
             Supports(element='accidental', type='yes')
             Supports(element='beam', type='yes')
             Supports(element='print', attribute='new-page', type='yes', value='yes')
             Supports(element='print', attribute='new-system', type='yes', value='yes')
             Supports(element='stem', type='yes')
-        Source('http://www.bach-digital.de/zoomify_commit.xml?XSL.index=1&XSL.remcrid=BachDigitalSource_source_00001200&XSL.mcrid=BachDigitalSource_derivate_00004117&XSL.ImagePath=%2FBachDigitalSource_derivate_00004117%2Fdb_bachp0269_page015&step=commit&XSL.label=D-B+Mus.+ms.+Bach+P+269&XSL.max=1&remcrid=BachDigitalSource_source_00001200&mcrid=BachDigitalSource_derivate_00004117&type=derivate&XSL.semcrid=BachDigitalSource_derivate_00004116&semcrid=BachDigitalSource_derivate_00004116&XSL.Orderlabel=Suite+III%2C+BWV+1009+-+6.+Bour%C3%A9e+II')
     with Defaults():
         with Scaling():
             Millimeters(7.05556)

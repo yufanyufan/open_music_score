@@ -6,8 +6,6 @@ with ScorePartwise(version='3.1'):
         Creator('a small tribute to the Angela family', type='lyricist')
         Rights('by Mutopia-2008/10/28-1534')
         with Encoding():
-            Software('MuseScore 3.6.2')
-            EncodingDate('2025-01-14')
             Supports(element='accidental', type='yes')
             Supports(element='beam', type='yes')
             Supports(element='print', attribute='new-page', type='yes', value='yes')

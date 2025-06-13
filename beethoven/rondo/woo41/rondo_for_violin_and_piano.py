@@ -5,8 +5,6 @@ with ScorePartwise(version='3.1'):
         Creator('L. van Beethoven', type='composer')
         Rights('First edition dated 1808')
         with Encoding():
-            Software('MuseScore 3.6.2')
-            EncodingDate('2025-01-14')
             Supports(element='accidental', type='yes')
             Supports(element='beam', type='yes')
             Supports(element='print', attribute='new-page', type='yes', value='yes')

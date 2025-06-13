@@ -2,8 +2,6 @@ with ScorePartwise(version='3.1'):
     with Identification():
         Rights('www.brassexcerpts.com\nThis work is made available under the Creative Commons CC0 1.0 Universal Public Domain Dedication.\nYou can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.')
         with Encoding():
-            Software('MuseScore 3.6.2')
-            EncodingDate('2025-01-14')
             Supports(element='accidental', type='yes')
             Supports(element='beam', type='yes')
             Supports(element='print', attribute='new-page', type='yes', value='yes')

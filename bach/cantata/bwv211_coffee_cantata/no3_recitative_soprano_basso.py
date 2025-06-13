@@ -5,14 +5,11 @@ with ScorePartwise(version='3.1'):
         Creator('Johann Sebastian Bach (1685-1750)', type='composer')
         Creator('BWV 211', type='lyricist')
         with Encoding():
-            Software('MuseScore 3.6.2')
-            EncodingDate('2025-01-14')
             Supports(element='accidental', type='yes')
             Supports(element='beam', type='yes')
             Supports(element='print', attribute='new-page', type='yes', value='yes')
             Supports(element='print', attribute='new-system', type='yes', value='yes')
             Supports(element='stem', type='yes')
-        Source('http://musescore.com/user/29414649/scores/6253522')
     with Defaults():
         with Scaling():
             Millimeters(7.05556)
