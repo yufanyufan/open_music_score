@@ -26,3 +26,11 @@ Help are needed in these area:
 * Fix error in metadata (naming, orgnization), or sheet itself.
 * Improve sheet page layout and engraving
 * Improve annotation: expression， articulation, fingering
+
+### Naming
+* For famouse artists, use last name only. eg, beethoven, chopin, etc.
+* Do not include genre or work in the piece name unless it is organic part of the well known name.
+* Genre, work and piece name should be in English only and in singular form. eg (etude, not etudes)
+* If work name contains op.#, it must be at first in the work name, eg, op10, without space
+* If piece name contains no.#, it must be at first in the file name. eg, no14, without space.
+* Lowercase with underscore(_) only, No space or dash (-)
